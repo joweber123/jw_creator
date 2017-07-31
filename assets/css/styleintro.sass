@@ -1,0 +1,255 @@
+.cover-letter-box
+  display: flex
+  justify-content: center
+  align-items: center
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  bottom: 0
+
+
+.cover
+  z-index: 100
+
+  position: absolute
+  width: auto
+  height: 90vh
+
+
+.cover-box
+  overflow: hidden
+  height: 100vh
+  width: 100vw
+  transform: translate(0,0)
+
+  .flex-box
+    display: flex
+    justify-content: center
+    flex-direction: column
+    align-items: center
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    bottom: 0
+    .row1
+
+      animation-name: shift2
+      animation-duration: 6s
+      animation-fill-mode: forwards
+      animation-iteration-count: 1
+
+      @keyframes shift2
+        0%
+          transform: translateY(0px)
+
+        100%
+          transform: translateY(60vh)
+      .box1,
+        animation-name: boxshift1
+        animation-duration: 6s
+        animation-fill-mode: forwards
+        animation-iteration-count: 1
+
+        @keyframes boxshift1
+          0%
+            transform: translateY(0px)
+
+          100%
+            transform: translateY(-10vh)
+    .row2
+      margin-left: 20vh
+
+    .row3
+
+      margin-left: -20vh
+      animation-name: shift3
+      animation-duration: 6s
+      animation-fill-mode: forwards
+      animation-iteration-count: 1
+
+      @keyframes shift3
+        0%
+          transform: translateY(0px)
+
+        100%
+          transform: translateY(20vh)
+
+      .box1, .box2, .box3, .box4
+        animation-name: boxshift1
+        animation-duration: 6s
+        animation-fill-mode: forwards
+        animation-iteration-count: 1
+
+        @keyframes boxshift1
+          0%
+            transform: translateY(0px)
+
+          100%
+            transform: translateY(-10vh)
+    .row4
+
+      margin-left: 40vh
+      animation-name: shift4
+      animation-duration: 6s
+      animation-fill-mode: forwards
+      animation-iteration-count: 1
+      @keyframes shift4
+        0%
+          transform: translateY(0px)
+        100%
+          transform: translateY(-10vh)
+
+    .row5
+
+      margin-left: -40vh
+      animation-name: shift5
+      animation-duration: 6s
+      animation-fill-mode: forwards
+      animation-iteration-count: 1
+
+      @keyframes shift5
+        0%
+          transform: translateY(0px)
+
+        100%
+          transform: translateY(40vh)
+    .row6
+
+      margin-left: 60vh
+      animation-name: shift6
+      animation-duration: 4s
+      animation-fill-mode: forwards
+      @keyframes shift6
+        0%
+          transform: translateY(0px)
+
+
+        100%
+          transform: translateY(-30vh)
+      .box4
+        animation-name: boxshift4
+        animation-duration: 6s
+        animation-fill-mode: forwards
+        animation-iteration-count: 1
+
+      @keyframes boxshift4
+        0%
+          transform: translateY(0px)
+
+        100%
+          transform: translateY(-10vh)
+
+
+
+    .row7
+
+      margin-left: -60vh
+      animation-name: shift7
+      animation-duration: 6s
+      animation-fill-mode: forwards
+      animation-iteration-count: 1
+      animation-delay: 2s
+      @keyframes shift7
+        0%
+          transform: translateY(0px)
+
+        100%
+          transform: translateY(-20vh)
+      .box9
+        animation-name: boxshift9
+        animation-duration: 6s
+        animation-fill-mode: forwards
+        animation-iteration-count: 1
+        animation-delay: 2s
+
+        @keyframes boxshift9
+          0%
+            transform: translateY(0px)
+
+          100%
+            transform: translatex(-20vh)
+
+
+    .row8
+
+      margin-left: -80vh
+      animation-name: shift8
+      animation-duration: 6s
+      animation-fill-mode: forwards
+      animation-iteration-count: 1
+
+      @keyframes shift8
+        0%
+          transform: translateY(0px)
+
+        100%
+          transform: translateY(30vh)
+
+    .row9
+
+      margin-left: 80vh
+      animation-name: shift9
+      animation-duration: 6s
+      animation-fill-mode: forwards
+      animation-iteration-count: 1
+
+      @keyframes shift9
+        0%
+          transform: translateY(0px)
+
+        100%
+          transform: translateY(-10vh)
+      .box4
+
+        animation-name: boxshift5
+        animation-duration: 3s
+        animation-fill-mode: forwards
+        animation-iteration-count: 1
+        @keyframes boxshift5
+          0%
+            transform: translateX(0px)
+
+          100%
+            transform: translateX(10vh)
+    .row
+      display: flex
+      flex-direction: column
+      .box1
+        background-color: #111
+      .box2
+        background-color: #222
+      .box3
+        background-color: #333
+      .box4
+        background-color: #444
+      .box5
+        background-color: #555
+      .box6
+        background-color: #666
+      .box7
+        background-color: #777
+      .box8
+        background-color: #888
+      .box9
+        background-color: #999
+      .boxdif1
+        background-color: #E54623
+      .boxdif2
+        background-color: #E54623
+      .boxdif3
+        background-color: #E54623
+      .boxdif4
+        background-color: #E54623
+      .boxdif5
+        background-color: #E54623
+      .boxdif6
+        background-color: #DD3C3C
+
+      .boxdif7
+        background-color: #69B9F2
+
+      .box
+        width: 10vh
+        height: 10vh

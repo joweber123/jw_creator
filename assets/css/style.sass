@@ -1,22 +1,27 @@
-$primary-color: #777
+$primary-color: #320847
 $text-color: #2E2D33
 $accent-color: #BD5248
 $bg-color: #F6F6F8
 
 .hero
-  background-image: url(/assets/images/bonsai.JPG)
+  background-image: url(/assets/images/poppy.JPG)
   height: 100vh
   width: 100vw
   background-repeat: no-repeat
   background-size: cover
+
+
 
 .cover-image
   position: absolute
   object-fit: cover
   height: 100vh
   width: 100vw
-  object-position: center
+  left: -50vw
   top: 0
+
+  @media (min-width: 550px)
+    object-position: center
 
 .sign
   position: absolute
@@ -43,47 +48,59 @@ $bg-color: #F6F6F8
     transform: scale(1.3)
     transition: .5s
 
+.about-header
+  display: block
+  margin-right: auto
+  margin-left: auto
+  margin-bottom: 5vh
+  width: 90%
+  @media (min-width: 550px)
+    width: 55%
 
 .center
   text-align: center
 
-.about-header
-  width: 20vw
-  display: block
-  margin-right: auto
-  margin-left: auto
-  padding-top: 50px
-  @media (min-width: 750px)
-    font-size: 100px
-    padding-top: 50px
+.about
+  margin-top: 20vh
+
 
 .about-description
   max-width: 60%
   margin-left: auto
   margin-right: auto
 
-.about-pic
-  display: block
-  margin-right: auto
-  margin-left: auto
-  padding-bottom: 100px
-  @media (min-width: 750px)
-    height: 30vh
+.about-pic-box
+  height: 70vh
+  overflow: hidden
+  margin-bottom: 20vh
+  margin-top: 20vh
+
+  .about-pic
+    display: block
+    margin-right: auto
+    margin-left: auto
     padding-bottom: 100px
-  @media (min-width: 1000px)
-    height: 50vh
-    padding-bottom: 100px
+    width: 100%
+    height: auto
+    opacity: .6
+
+
+
 
 
 
 .portfolio
   margin-top: 20px
-  background-color: #E5D5FF
+  background-color: #FED32E
   transform: skewY(10deg)
 .portfolio-container
   transform: skewY(-10deg)
 
+.portfolio-thumb
 
+  &:hover
+    filter: sepia(50%)
+    
 
 .portfolio-bottom
   @media (min-width: 550px)
@@ -117,12 +134,18 @@ $bg-color: #F6F6F8
   cursor: pointer
 
 .contact-button
-  border: blue solid 2px
-  border-radius: 8px
-  padding: 8px
-  margin-top: 20px
+  text-decoration: none
   cursor: pointer
   margin-bottom: 60px
+  color: #DD3C3C
+  font-size: 2.5rem
+  @media (min-width: 550px)
+    font-size: 5rem
+  &:hover
+    text-decoration: none
+    transform: scale(1.1)
+    transition: 1s
+    filter: opacity(80%)
 
 .footer-pic
   width: 100vw

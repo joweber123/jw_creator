@@ -29,6 +29,98 @@
 		"oF": 1,
 		"oS": 0
 		},
+	"\/assets\/css\/portfolio1.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/portfolio1-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/portfolio1.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/portfolio1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/portfolio2.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/portfolio2-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/portfolio2.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/portfolio2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/portfolio3.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/portfolio3-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/portfolio3.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/portfolio3.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/css\/portfolio4.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/portfolio4-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/portfolio4.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/portfolio4.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/css\/skeleton-min.css": {
 		"aP": 1,
 		"bl": 0,
@@ -71,6 +163,39 @@
 		"oF": 1,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/assets\/css\/styleintro.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/styleintro-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/assets\/css\/styleintro.sass": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/styleintro.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/images\/backarrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/backarrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/assets\/images\/bonsai.JPG": {
 		"ft": 16384,
@@ -124,6 +249,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/images\/footer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/footer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/github.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -144,6 +279,38 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/iphone-horizontal.png": {
+		"ft": 32768,
+		"iS": 3962740,
+		"oA": 0,
+		"oAP": "\/assets\/images\/iphone-horizontal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/iphone-vertical.png": {
+		"ft": 32768,
+		"iS": 5619696,
+		"oA": 0,
+		"oAP": "\/assets\/images\/iphone-vertical.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/J.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/J.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/assets\/images\/james.jpg": {
 		"ft": 16384,
 		"iS": 8071,
@@ -151,7 +318,7 @@
 		"oAP": "\/assets\/images\/james.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/images\/linkedin.svg": {
@@ -163,6 +330,96 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/images\/logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/mac-mock.png": {
+		"ft": 32768,
+		"iS": 5353508,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mac-mock.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/mock-up-desktop-story.png": {
+		"ft": 32768,
+		"iS": 4944588,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mock-up-desktop-story.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/mock-up-desktop.png": {
+		"ft": 32768,
+		"iS": 3913066,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mock-up-desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/poppy.JPG": {
+		"ft": 16384,
+		"iS": 8144384,
+		"oA": 0,
+		"oAP": "\/assets\/images\/poppy.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/portfolio-thumb-1.png": {
+		"ft": 32768,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/portfolio-thumb-1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/portfolio1.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/portfolio1.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/images\/portfolio10.sass": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 2,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/portfolio10.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/assets\/images\/Rectangle-1.png": {
 		"ft": 32768,
@@ -249,6 +506,58 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/images\/watashi.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/images\/watashi.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/images\/wire-frame-wedding.png": {
+		"ft": 32768,
+		"iS": 126788,
+		"oA": 0,
+		"oAP": "\/assets\/images\/wire-frame-wedding.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/wireframe-wedding.jpg": {
+		"ft": 16384,
+		"iS": 24576,
+		"oA": 0,
+		"oAP": "\/assets\/images\/wireframe-wedding.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/wireframe1.png": {
+		"ft": 32768,
+		"iS": 224150,
+		"oA": 0,
+		"oAP": "\/assets\/images\/wireframe1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/wiresketch.jpg": {
+		"ft": 16384,
+		"iS": 106459,
+		"oA": 0,
+		"oAP": "\/assets\/images\/wiresketch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/images\/youtube.svg": {
 		"ft": 2097152,

@@ -1,5 +1,5 @@
 .hero {
-  background-image: url(/assets/images/bonsai.JPG);
+  background-image: url(/assets/images/poppy.JPG);
   height: 100vh;
   width: 100vw;
   background-repeat: no-repeat;
@@ -11,9 +11,12 @@
      object-fit: cover;
   height: 100vh;
   width: 100vw;
-  -o-object-position: center;
-     object-position: center;
+  left: -50vw;
   top: 0; }
+  @media (min-width: 550px) {
+    .cover-image {
+      -o-object-position: center;
+         object-position: center; } }
 
 .sign {
   position: absolute;
@@ -32,7 +35,7 @@
       -ms-flex-align: center;
           align-items: center;
   position: relative;
-  background-color: #777;
+  background-color: #320847;
   height: 50px;
   top: -50px;
   cursor: pointer; }
@@ -47,48 +50,54 @@
     -webkit-transition: .5s;
     transition: .5s; }
 
-.center {
-  text-align: center; }
-
 .about-header {
-  width: 20vw;
   display: block;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 50px; }
-  @media (min-width: 750px) {
+  margin-bottom: 5vh;
+  width: 90%; }
+  @media (min-width: 550px) {
     .about-header {
-      font-size: 100px;
-      padding-top: 50px; } }
+      width: 55%; } }
+
+.center {
+  text-align: center; }
+
+.about {
+  margin-top: 20vh; }
 
 .about-description {
   max-width: 60%;
   margin-left: auto;
   margin-right: auto; }
 
-.about-pic {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 100px; }
-  @media (min-width: 750px) {
-    .about-pic {
-      height: 30vh;
-      padding-bottom: 100px; } }
-  @media (min-width: 1000px) {
-    .about-pic {
-      height: 50vh;
-      padding-bottom: 100px; } }
+.about-pic-box {
+  height: 70vh;
+  overflow: hidden;
+  margin-bottom: 20vh;
+  margin-top: 20vh; }
+  .about-pic-box .about-pic {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-bottom: 100px;
+    width: 100%;
+    height: auto;
+    opacity: .6; }
 
 .portfolio {
   margin-top: 20px;
-  background-color: #E5D5FF;
+  background-color: #FED32E;
   -webkit-transform: skewY(10deg);
           transform: skewY(10deg); }
 
 .portfolio-container {
   -webkit-transform: skewY(-10deg);
           transform: skewY(-10deg); }
+
+.portfolio-thumb:hover {
+  -webkit-filter: sepia(50%);
+          filter: sepia(50%); }
 
 @media (min-width: 550px) {
   .portfolio-bottom {
@@ -125,12 +134,22 @@
   cursor: pointer; }
 
 .contact-button {
-  border: blue solid 2px;
-  border-radius: 8px;
-  padding: 8px;
-  margin-top: 20px;
+  text-decoration: none;
   cursor: pointer;
-  margin-bottom: 60px; }
+  margin-bottom: 60px;
+  color: #DD3C3C;
+  font-size: 2.5rem; }
+  @media (min-width: 550px) {
+    .contact-button {
+      font-size: 5rem; } }
+  .contact-button:hover {
+    text-decoration: none;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    -webkit-transition: 1s;
+    transition: 1s;
+    -webkit-filter: opacity(80%);
+            filter: opacity(80%); }
 
 .footer-pic {
   width: 100vw; }
