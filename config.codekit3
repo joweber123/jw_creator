@@ -197,6 +197,94 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/blog-desktop-version.png": {
+		"ft": 32768,
+		"iS": 3565216,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-desktop-version.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/blog-iphone-horizontal.png": {
+		"ft": 32768,
+		"iS": 870625,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-iphone-horizontal.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/blog-iphone-vertical.png": {
+		"ft": 32768,
+		"iS": 3290350,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-iphone-vertical.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/blog-mockup-desktop-about.png": {
+		"ft": 32768,
+		"iS": 937396,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-mockup-desktop-about.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/blog-mockup-desktop-contact.png": {
+		"ft": 32768,
+		"iS": 89167,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-mockup-desktop-contact.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/blog-mockup-desktop-index.png": {
+		"ft": 32768,
+		"iS": 3503324,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-mockup-desktop-index.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/blog-mockup-desktop-post.png": {
+		"ft": 32768,
+		"iS": 626937,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-mockup-desktop-post.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/blog-wireframe.png": {
+		"ft": 32768,
+		"iS": 199580,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-wireframe.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/bonsai.JPG": {
 		"ft": 16384,
 		"iS": 7806976,
@@ -247,6 +335,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/footer.png": {
+		"ft": 32768,
+		"iS": 4478,
+		"oA": 0,
+		"oAP": "\/assets\/images\/footer.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/footer.svg": {
@@ -392,6 +491,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/portfolio-thumb-2.png": {
+		"ft": 32768,
+		"iS": 409600,
+		"oA": 0,
+		"oAP": "\/assets\/images\/portfolio-thumb-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

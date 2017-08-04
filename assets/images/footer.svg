@@ -9,13 +9,16 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="1600"
-   height="744.09448"
-   viewBox="0 0 1600 744.09448"
+   width="1602.719"
+   height="457.47348"
+   viewBox="0 0 1602.719 457.47348"
    id="svg9080"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="footer.svg">
+   sodipodi:docname="footer.svg"
+   inkscape:export-filename="/Users/mac/Desktop/portfolio/assets/images/footer.png"
+   inkscape:export-xdpi="43.615398"
+   inkscape:export-ydpi="43.615398">
   <defs
      id="defs9082" />
   <sodipodi:namedview
@@ -26,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.5"
-     inkscape:cx="847.12024"
-     inkscape:cy="226.51403"
+     inkscape:cx="854.11211"
+     inkscape:cy="226.51634"
      inkscape:document-units="px"
      inkscape:current-layer="layer6"
      showgrid="false"
@@ -36,7 +39,11 @@
      inkscape:window-height="751"
      inkscape:window-x="0"
      inkscape:window-y="1"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <metadata
      id="metadata9085">
     <rdf:RDF>
@@ -53,29 +60,29 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-308.26769)"
+     transform="translate(-0.0081258,-594.89099)"
      style="display:inline" />
   <g
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="Layer 2"
      style="display:inline"
-     transform="translate(0,7.578125e-6)" />
+     transform="translate(-0.0081258,-286.62329)" />
   <g
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="Layer 3"
-     transform="translate(0,7.578125e-6)" />
+     transform="translate(-0.0081258,-286.62329)" />
   <g
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Layer 4"
-     transform="translate(0,7.578125e-6)" />
+     transform="translate(-0.0081258,-286.62329)" />
   <g
      inkscape:groupmode="layer"
      id="layer6"
      inkscape:label="Layer 5"
-     transform="translate(0,7.578125e-6)">
+     transform="translate(-0.0081258,-286.62329)">
     <rect
        style="display:inline;opacity:1;fill:#555555;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect9628-8"

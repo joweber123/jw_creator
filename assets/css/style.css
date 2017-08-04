@@ -144,10 +144,6 @@
       font-size: 5rem; } }
   .contact-button:hover {
     text-decoration: none;
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-    -webkit-transition: 1s;
-    transition: 1s;
     -webkit-filter: opacity(80%);
             filter: opacity(80%); }
 

@@ -5,7 +5,7 @@
 
 .header-banner {
   padding-top: 20vh;
-  background-color: #320847;
+  background-color: #999;
   text-align: center; }
 
 .site-link {
@@ -55,7 +55,7 @@
 
 .p-header {
   padding-bottom: 10vh;
-  background-color: #320847; }
+  background-color: #999; }
 
 .p-about {
   margin-top: 5vh; }
@@ -85,7 +85,7 @@
         width: 20%; } }
 
 .p-footer {
-  background-color: #320847;
+  background-color: #999;
   padding-top: 10vh;
   margin-top: 20px; }
 
