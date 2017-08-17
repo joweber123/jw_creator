@@ -4,6 +4,30 @@ $accent-color: #BD5248
 $bg-color: #F6F6F8
 $cta-color: #DD3C3C
 
+
+.loader
+  position: absolute
+  left: 50%
+  top: 50%
+  z-index: 1000
+  width: 100px
+  height: 100px
+  margin: -75px 0 0 -75px
+  border: 7px solid #f3f3f3
+  border-radius: 50%
+  border-top: 7px solid #3498db
+  width: 70px
+  height: 70px
+  animation: spin 2s linear infinite
+
+  @keyframes spin
+    0%
+      transform: rotate(0deg)
+    100%
+      transform: rotate(360deg)
+.whole-page
+  display: none
+
 .center
   text-align: center
 
