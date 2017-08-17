@@ -3,6 +3,6 @@ $(window).load(function() {
   $(".whole-page").fadeIn("slow");
 });
 
-$(window).resize(function() {
-        location.reload();
+$(window).on("orientationchange",function() {
+  location.reload();
 });
