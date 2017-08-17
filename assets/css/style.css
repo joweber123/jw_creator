@@ -1,35 +1,17 @@
-.hero {
-  background-image: url(/assets/images/poppy.JPG);
-  height: 100vh;
-  width: 100vw;
-  background-repeat: no-repeat;
-  background-size: cover; }
+.center {
+  text-align: center; }
 
-h2 {
-  margin-bottom: 0; }
-  @media (min-width: 550px) {
-    h2 {
-      margin-bottom: 2rem; } }
-
-.cover-image {
-  position: absolute;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100vh;
-  width: 100vw;
-  left: -50vw;
-  top: 0; }
-  @media (min-width: 550px) {
-    .cover-image {
-      -o-object-position: center;
-         object-position: center; } }
-
-.sign {
-  position: absolute;
-  width: 25vw;
-  top: 25vh;
-  width: 50vw;
-  margin-left: 5vw; }
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #999; }
 
 .nav {
   display: -webkit-box;
@@ -70,9 +52,6 @@ h2 {
       padding-top: 70px;
       width: 60%; } }
 
-.center {
-  text-align: center; }
-
 .description {
   max-width: 100%;
   margin-left: auto;
@@ -107,7 +86,7 @@ h2 {
 
 .portfolio {
   margin-top: 20px;
-  background-image: url(/assets/images/portfolio-background.svg);
+  background-image: url(../images/portfolio-background.svg);
   background-size: contain;
   -webkit-transform: skewY(10deg);
           transform: skewY(10deg);
@@ -127,18 +106,6 @@ h2 {
 @media (min-width: 550px) {
   .portfolio-bottom {
     margin-top: 3%; } }
-
-.flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: #999; }
 
 .contact-icon-group {
   padding-top: 40px; }
