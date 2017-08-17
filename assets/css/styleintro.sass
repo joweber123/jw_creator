@@ -3,6 +3,8 @@
   justify-content: center
   align-items: center
   position: absolute
+  transform: scale(.5)
+  z-index: 1000
   top: 0
   left: 0
   right: 0
@@ -19,9 +21,13 @@
 
 .cover-box
   overflow: hidden
+  display: flex
+  align-items: center
+  justify-content: center
   height: 100vh
   width: 100vw
   transform: translate(0,0)
+
 
   .flex-box
     display: flex
@@ -33,6 +39,8 @@
     left: 0
     right: 0
     bottom: 0
+    transform: scale(.5)
+
     .row1
 
       animation-name: shift2
@@ -253,3 +261,12 @@
       .box
         width: 10vh
         height: 10vh
+
+      .disappear
+        animation-name: disappear
+        animation-duration: 4s
+        animation-fill-mode: forwards
+        animation-iteration-count: 1
+        @keyframes disappear
+          100%
+            background-color: #FFF

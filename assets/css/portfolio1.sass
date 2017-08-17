@@ -4,31 +4,75 @@ $nav-color: #320847
   margin-right: auto
   margin-left: auto
   width: 80%
-
+.header-banner-blogger
+  background-image: url(/assets/images/blogger-header.jpg)
+.header-banner-wedding
+  background-image: url(/assets/images/wedding-header.jpg)
 .header-banner
   padding-top: 20vh
-  background-color: $nav-color
   text-align: center
+  padding-bottom: 10vh
+  background-size: cover
 
-.site-link
-  text-decoration: none
-  color: white
-  padding-bottom: 20vh
-  &:hover
+  .site-link
     text-decoration: none
     color: white
+    padding-bottom: 20vh
+    h3
+      display: inline-block
+      text-decoration: none
+      color: white
+      border-bottom: 2px #69B9F2 solid
+
 .logo
-  height: 8vw
+  height: 50px
+  @media (min-width: 550px)
+    height: 8vw
+
+.logo-header
   padding-left: 2vw
   padding-top: 2vw
   display: block
 
-.back-arrow
+h4
+  font-size: 20px
 
-  width: 4vw
+.back-arrow-header
   height: auto
-  padding-left: 4vw
+  padding-left: 17px
   padding-top: 1vw
+  @media (min-width: 550px)
+    padding-left: 4vw
+
+.back-arrow
+  width: 25px
+  @media (min-width: 550px)
+    width: 4vw
+
+
+.p-information
+  padding-top: 20px
+
+  @media (min-width: 750px)
+    display: flex
+    justify-content: center
+    align-items: baseline
+    padding-top: 20px
+
+
+.p-information-objects
+  margin-bottom: 4px
+  &::first-letter
+    color: #DD3C3C
+  @media (min-width: 550px)
+    display: block
+    padding: 0 10px
+
+
+
+
+
+
 
 .header-nav
   position: absolute
@@ -40,6 +84,10 @@ $nav-color: #320847
 .portfolio-header-banner
   color: white
 
+.portfolio-header
+  margin-bottom: 5px
+  @media (min-width: 550px)
+    margin-bottom: 2rem
 
 
   &:hover
@@ -52,18 +100,20 @@ $nav-color: #320847
 .desktop-left
   border: solid 1px gray
   border-radius: 5px
+
+
   @media (min-width: 550px)
     margin-left: 4%
 
 
-.portfolio-paragraph
 
-.p-header
-  padding-bottom: 10vh
-  background-color: $nav-color
+
+
 
 .p-about
-  margin-top: 5vh
+  margin-top: 5px
+  @media (min-width: 550px)
+    margin-top: 20px
 
 
 .flex-box
@@ -85,14 +135,14 @@ $nav-color: #320847
       width: 20%
 
 .p-footer
-  background-color: $nav-color
+  background-image: url(/assets/images/wedding-header.jpg)
   padding-top: 10vh
   margin-top: 20px
 .logo-footer
   display: block
   margin-right: auto
   margin-left: auto
-  height: 12vw
+
 .link-footer
   display: block
   margin-right: auto
@@ -103,11 +153,15 @@ $nav-color: #320847
 
 .back-arrow-footer
   display: block
-  width: 8vw
   margin-right: auto
   margin-left: auto
-  padding-top: 10px
+  padding-top: 5px
   padding-bottom: 10px
+  width: 25px
+  @media (min-width: 550px)
+    width: 4vw
+    padding-top: 10px
+
 
 //  @media (min-width: 550px)
     display: flex

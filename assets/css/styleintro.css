@@ -9,6 +9,9 @@
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  z-index: 1000;
   top: 0;
   left: 0;
   right: 0;
@@ -22,6 +25,15 @@
 
 .cover-box {
   overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   height: 100vh;
   width: 100vw;
   -webkit-transform: translate(0, 0);
@@ -44,7 +56,9 @@
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0; }
+    bottom: 0;
+    -webkit-transform: scale(0.5);
+            transform: scale(0.5); }
     .cover-box .flex-box .row1 {
       -webkit-animation-name: shift2;
               animation-name: shift2;
@@ -416,3 +430,20 @@
       .cover-box .flex-box .row .box {
         width: 10vh;
         height: 10vh; }
+      .cover-box .flex-box .row .disappear {
+        -webkit-animation-name: disappear;
+                animation-name: disappear;
+        -webkit-animation-duration: 4s;
+                animation-duration: 4s;
+        -webkit-animation-fill-mode: forwards;
+                animation-fill-mode: forwards;
+        -webkit-animation-iteration-count: 1;
+                animation-iteration-count: 1; }
+
+@-webkit-keyframes disappear {
+  100% {
+    background-color: #FFF; } }
+
+@keyframes disappear {
+  100% {
+    background-color: #FFF; } }

@@ -3,30 +3,78 @@
   margin-left: auto;
   width: 80%; }
 
+.header-banner-blogger {
+  background-image: url(/assets/images/blogger-header.jpg); }
+
+.header-banner-wedding {
+  background-image: url(/assets/images/wedding-header.jpg); }
+
 .header-banner {
   padding-top: 20vh;
-  background-color: #999;
-  text-align: center; }
-
-.site-link {
-  text-decoration: none;
-  color: white;
-  padding-bottom: 20vh; }
-  .site-link:hover {
+  text-align: center;
+  padding-bottom: 10vh;
+  background-size: cover; }
+  .header-banner .site-link {
     text-decoration: none;
-    color: white; }
+    color: white;
+    padding-bottom: 20vh; }
+    .header-banner .site-link h3 {
+      display: inline-block;
+      text-decoration: none;
+      color: white;
+      border-bottom: 2px #69B9F2 solid; }
 
 .logo {
-  height: 8vw;
+  height: 50px; }
+  @media (min-width: 550px) {
+    .logo {
+      height: 8vw; } }
+
+.logo-header {
   padding-left: 2vw;
   padding-top: 2vw;
   display: block; }
 
-.back-arrow {
-  width: 4vw;
+h4 {
+  font-size: 20px; }
+
+.back-arrow-header {
   height: auto;
-  padding-left: 4vw;
+  padding-left: 17px;
   padding-top: 1vw; }
+  @media (min-width: 550px) {
+    .back-arrow-header {
+      padding-left: 4vw; } }
+
+.back-arrow {
+  width: 25px; }
+  @media (min-width: 550px) {
+    .back-arrow {
+      width: 4vw; } }
+
+.p-information {
+  padding-top: 20px; }
+  @media (min-width: 750px) {
+    .p-information {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: baseline;
+          -ms-flex-align: baseline;
+              align-items: baseline;
+      padding-top: 20px; } }
+
+.p-information-objects {
+  margin-bottom: 4px; }
+  .p-information-objects::first-letter {
+    color: #DD3C3C; }
+  @media (min-width: 550px) {
+    .p-information-objects {
+      display: block;
+      padding: 0 10px; } }
 
 .header-nav {
   position: absolute; }
@@ -36,7 +84,13 @@
 
 .portfolio-header-banner {
   color: white; }
-  .portfolio-header-banner:hover {
+
+.portfolio-header {
+  margin-bottom: 5px; }
+  @media (min-width: 550px) {
+    .portfolio-header {
+      margin-bottom: 2rem; } }
+  .portfolio-header:hover {
     text-decoration: none; }
 
 .desktop {
@@ -53,12 +107,11 @@
     .desktop-left {
       margin-left: 4%; } }
 
-.p-header {
-  padding-bottom: 10vh;
-  background-color: #999; }
-
 .p-about {
-  margin-top: 5vh; }
+  margin-top: 5px; }
+  @media (min-width: 550px) {
+    .p-about {
+      margin-top: 20px; } }
 
 .flex-box {
   width: 100%; }
@@ -85,15 +138,14 @@
         width: 20%; } }
 
 .p-footer {
-  background-color: #999;
+  background-image: url(/assets/images/wedding-header.jpg);
   padding-top: 10vh;
   margin-top: 20px; }
 
 .logo-footer {
   display: block;
   margin-right: auto;
-  margin-left: auto;
-  height: 12vw; }
+  margin-left: auto; }
 
 .link-footer {
   display: block;
@@ -105,8 +157,12 @@
 
 .back-arrow-footer {
   display: block;
-  width: 8vw;
   margin-right: auto;
   margin-left: auto;
-  padding-top: 10px;
-  padding-bottom: 10px; }
+  padding-top: 5px;
+  padding-bottom: 10px;
+  width: 25px; }
+  @media (min-width: 550px) {
+    .back-arrow-footer {
+      width: 4vw;
+      padding-top: 10px; } }

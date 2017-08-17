@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
    id="svg5555"
    viewBox="0 0 53.571427 51.199776"
    height="14.449715mm"
-   width="15.119047mm">
+   width="15.119047mm"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="linkedin.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="945"
+     inkscape:window-height="710"
+     id="namedview9783"
+     showgrid="false"
+     inkscape:zoom="4.6093951"
+     inkscape:cx="26.785713"
+     inkscape:cy="8.2440318"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg5555" />
   <defs
      id="defs5557" />
   <metadata
@@ -20,20 +44,21 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      transform="translate(-297.14285,-418.23832)"
-     id="layer1">
+     id="layer1"
+     style="fill:#444444;fill-opacity:1">
     <text
        id="text6103"
        y="466.64792"
        x="297.14285"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:FontAwesome;-inkscape-font-specification:'FontAwesome, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20px;line-height:125%;font-family:FontAwesome;-inkscape-font-specification:'FontAwesome, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#444444;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        xml:space="preserve"><tspan
-         style="font-size:62.5px"
+         style="font-size:62.5px;fill:#444444;fill-opacity:1"
          y="466.64792"
          x="297.14285"
          id="tspan6105"></tspan></text>
