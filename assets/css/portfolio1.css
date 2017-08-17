@@ -4,10 +4,10 @@
   width: 80%; }
 
 .header-banner-blogger {
-  background-image: url(/assets/images/blogger-header.jpg); }
+  background-image: url(../images/blogger-header.jpg); }
 
 .header-banner-wedding {
-  background-image: url(/assets/images/wedding-header.jpg); }
+  background-image: url(../images/wedding-header.jpg); }
 
 .header-banner {
   padding-top: 20vh;
@@ -138,7 +138,7 @@ h4 {
         width: 20%; } }
 
 .p-footer {
-  background-image: url(/assets/images/wedding-header.jpg);
+  background-image: url(../images/wedding-header.jpg);
   padding-top: 10vh;
   margin-top: 20px; }
 
