@@ -128,6 +128,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/blog-desktop-version.jpg": {
+		"ft": 16384,
+		"iS": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-desktop-version.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/blog-desktop-version.png": {
 		"ft": 32768,
 		"iS": 3565216,
@@ -137,6 +147,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/blog-iphone-horizontal.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-iphone-horizontal.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/blog-iphone-horizontal.png": {
@@ -150,6 +170,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/blog-iphone-vertical.jpg": {
+		"ft": 16384,
+		"iS": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-iphone-vertical.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/blog-iphone-vertical.png": {
 		"ft": 32768,
 		"iS": 3290350,
@@ -159,6 +189,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/blog-mockup-desktop-about.jpg": {
+		"ft": 16384,
+		"iS": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-mockup-desktop-about.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/blog-mockup-desktop-about.png": {
@@ -183,6 +223,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/blog-mockup-desktop-index.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-mockup-desktop-index.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/images\/blog-mockup-desktop-index.png": {
 		"ft": 32768,
 		"iS": 3503324,
@@ -194,11 +244,32 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/blog-mockup-desktop-post.jpg": {
+		"ft": 16384,
+		"iS": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-mockup-desktop-post.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/blog-mockup-desktop-post.png": {
 		"ft": 32768,
 		"iS": 626937,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-mockup-desktop-post.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/blog-wireframe-artboard.png": {
+		"ft": 32768,
+		"iS": 188415,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-wireframe-artboard.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -287,6 +358,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/iphone-horizontal.jpg": {
+		"ft": 16384,
+		"iS": 18546,
+		"oA": 0,
+		"oAP": "\/assets\/images\/iphone-horizontal.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/assets\/images\/iphone-horizontal.png": {
 		"ft": 32768,
 		"iS": 3962740,
@@ -296,6 +377,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/iphone-vertical.jpg": {
+		"ft": 16384,
+		"iS": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/images\/iphone-vertical.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/iphone-vertical.png": {
@@ -360,6 +451,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/mac-mock.jpg": {
+		"ft": 16384,
+		"iS": 4096,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mac-mock.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/mac-mock.png": {
 		"ft": 32768,
 		"iS": 5353508,
@@ -369,6 +470,16 @@
 		"oIPL": 1,
 		"opt": 1,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/mock-up-desktop-story.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mock-up-desktop-story.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/mock-up-desktop-story.png": {
@@ -382,6 +493,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/mock-up-desktop.jpg": {
+		"ft": 16384,
+		"iS": 279980,
+		"oA": 0,
+		"oAP": "\/assets\/images\/mock-up-desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/mock-up-desktop.png": {
 		"ft": 32768,
 		"iS": 3913066,
@@ -390,6 +511,27 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/portfolio-background.jpg": {
+		"ft": 16384,
+		"iS": 20480,
+		"oA": 0,
+		"oAP": "\/assets\/images\/portfolio-background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/portfolio-background.png": {
+		"ft": 32768,
+		"iS": 49152,
+		"oA": 0,
+		"oAP": "\/assets\/images\/portfolio-background.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -402,6 +544,39 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/images\/portfolio-background.svg-g5496-1023.png": {
+		"ft": 32768,
+		"iS": 81920,
+		"oA": 0,
+		"oAP": "\/assets\/images\/portfolio-background.svg-g5496-1023.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/portfolio-background.svg-g5496-642.png": {
+		"ft": 32768,
+		"iS": 409237,
+		"oA": 0,
+		"oAP": "\/assets\/images\/portfolio-background.svg-g5496-642.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/portfolio-background.svg-g5496-671.png": {
+		"ft": 32768,
+		"iS": 172032,
+		"oA": 0,
+		"oAP": "\/assets\/images\/portfolio-background.svg-g5496-671.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/images\/portfolio-thumb-1.png": {
 		"ft": 32768,
@@ -461,6 +636,16 @@
 		"iS": 21156,
 		"oA": 0,
 		"oAP": "\/assets\/images\/wedding-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/images\/wire-frame-wedding.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/wire-frame-wedding.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

@@ -1,34 +1,45 @@
 .loader {
+  left: calc(50% - 10px);
+  top: calc(50% - 10px);
   position: absolute;
-  left: 50%;
-  top: 50%;
-  z-index: 1000;
-  width: 100px;
-  height: 100px;
-  margin: -75px 0 0 -75px;
-  border: 7px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 7px solid #3498db;
-  width: 70px;
-  height: 70px;
-  -webkit-animation: spin 2s linear infinite;
-          animation: spin 2s linear infinite; }
+  width: 15px;
+  height: 15px;
+  border-radius: 50%; }
+  .loader:nth-child(1) {
+    background-color: #e54513;
+    -webkit-animation: bounce 1s ease-in-out .10s infinite;
+            animation: bounce 1s ease-in-out .10s infinite; }
+  .loader:nth-child(2) {
+    left: calc(50% + 20px);
+    background-color: #de3935;
+    -webkit-animation: bounce 1s ease-in-out .30s infinite;
+            animation: bounce 1s ease-in-out .30s infinite; }
+  .loader:nth-child(3) {
+    left: calc(50% - 40px);
+    background-color: #64b6f1;
+    -webkit-animation: bounce 1s ease-in-out  infinite;
+            animation: bounce 1s ease-in-out  infinite; }
 
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+@-webkit-keyframes bounce {
+  0%, 75%, 100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
+  25% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px); } }
 
-@keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+@keyframes bounce {
+  0%, 75%, 100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px); }
+  25% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px); } }
+
+.loader-text {
+  text-align: center;
+  margin-top: calc(50vh + 20px);
+  display: block; }
 
 .whole-page {
   display: none; }
@@ -121,7 +132,7 @@
 
 .portfolio {
   margin-top: 20px;
-  background-image: url(../images/portfolio-background.svg);
+  background-image: url(../images/portfolio-background.jpg);
   background-size: contain;
   -webkit-transform: skewY(10deg);
           transform: skewY(10deg);
