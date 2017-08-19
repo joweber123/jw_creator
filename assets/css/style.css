@@ -155,7 +155,8 @@
     margin-top: 3%; } }
 
 .contact-icon-group {
-  padding-top: 40px; }
+  padding-top: 40px;
+  position: relative; }
 
 .container-contact {
   margin-left: auto;
