@@ -344,8 +344,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/github.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -448,8 +448,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/linkedin.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -721,8 +721,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/images\/youtube.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
