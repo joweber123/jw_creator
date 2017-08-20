@@ -120,9 +120,6 @@
 
 .about-pic-box {
   overflow: hidden; }
-  @media (min-width: 800px) {
-    .about-pic-box {
-      height: 70vh; } }
   .about-pic-box .about-pic {
     display: block;
     margin-right: auto;
@@ -155,8 +152,10 @@
     margin-top: 3%; } }
 
 .contact-icon-group {
-  padding-top: 40px;
   position: relative; }
+  @media (min-width: 550px) {
+    .contact-icon-group {
+      padding-top: 40px; } }
 
 .container-contact {
   margin-left: auto;
@@ -173,11 +172,16 @@
 
 .contact-icons {
   cursor: pointer;
-  height: 50px;
-  padding-bottom: 6px; }
+  height: 40px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px; }
   .contact-icons:hover {
     border-bottom: 1px #69B9F2 solid;
     padding-bottom: 5px; }
+  @media (min-width: 550px) {
+    .contact-icons {
+      height: 50px; } }
   @media (min-width: 800px) {
     .contact-icons {
       height: 60px; } }

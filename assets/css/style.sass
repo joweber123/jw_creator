@@ -96,8 +96,6 @@ $cta-color: #DD3C3C
 
 .about-pic-box
   overflow: hidden
-  @media (min-width: 800px)
-    height: 70vh
 
   .about-pic
     display: block
@@ -128,8 +126,11 @@ $cta-color: #DD3C3C
     margin-top: 3%
 
 .contact-icon-group
-  padding-top: 40px
+
   position: relative
+  @media (min-width: 550px)
+    padding-top: 40px
+
 .container-contact
   margin-left: auto
   margin-right: auto
@@ -142,11 +143,15 @@ $cta-color: #DD3C3C
 
 .contact-icons
   cursor: pointer
-  height: 50px
+  height: 40px
   padding-bottom: 6px
+  padding-left: 20px
+  padding-right: 20px
   &:hover
     border-bottom: 1px #69B9F2 solid
     padding-bottom: 5px
+  @media (min-width: 550px)
+    height: 50px
   @media (min-width: 800px)
     height: 60px
 
