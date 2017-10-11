@@ -6,17 +6,17 @@
   height: 15px;
   border-radius: 50%; }
   .loader:nth-child(1) {
-    background-color: #e54513;
+    background-color: #B4DBC0;
     -webkit-animation: bounce 1s ease-in-out .10s infinite;
             animation: bounce 1s ease-in-out .10s infinite; }
   .loader:nth-child(2) {
     left: calc(50% + 20px);
-    background-color: #de3935;
+    background-color: #B56357;
     -webkit-animation: bounce 1s ease-in-out .30s infinite;
             animation: bounce 1s ease-in-out .30s infinite; }
   .loader:nth-child(3) {
     left: calc(50% - 40px);
-    background-color: #64b6f1;
+    background-color: #A7B3A5;
     -webkit-animation: bounce 1s ease-in-out  infinite;
             animation: bounce 1s ease-in-out  infinite; }
 
