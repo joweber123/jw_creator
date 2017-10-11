@@ -9,17 +9,41 @@
       -ms-flex-align: center;
           align-items: center;
   position: absolute;
-  -webkit-transform: scale(0.5);
-          transform: scale(0.5);
   z-index: 1000;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0; }
+  bottom: 0;
+  -webkit-transform: scale(0.3);
+          transform: scale(0.3); }
+  @media (min-width: 550px) {
+    .cover-letter-box {
+      -webkit-transform: scale(0.4);
+              transform: scale(0.4); } }
+  @media (min-width: 1000px) {
+    .cover-letter-box {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5); } }
+
+.cover-letter-box-circle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000; }
 
 .circle {
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
+  height: 50vh;
   -webkit-filter: drop-shadow(1px 1px 2px #888888);
           filter: drop-shadow(1px 1px 2px #888888);
   -webkit-animation-name: circle;
@@ -30,6 +54,12 @@
           animation-iteration-count: infinite;
   -webkit-animation-timing-function: ease-in-out;
           animation-timing-function: ease-in-out; }
+  @media (min-width: 550px) {
+    .circle {
+      height: 70vh; } }
+  @media (min-width: 1000px) {
+    .circle {
+      height: 80vh; } }
 
 @-webkit-keyframes circle {
   0% {
@@ -96,8 +126,16 @@
     left: 0;
     right: 0;
     bottom: 0;
-    -webkit-transform: scale(0.5);
-            transform: scale(0.5); }
+    -webkit-transform: scale(0.3);
+            transform: scale(0.3); }
+    @media (min-width: 550px) {
+      .cover-box .flex-box {
+        -webkit-transform: scale(0.4);
+                transform: scale(0.4); } }
+    @media (min-width: 1000px) {
+      .cover-box .flex-box {
+        -webkit-transform: scale(0.5);
+                transform: scale(0.5); } }
     .cover-box .flex-box .row1 {
       -webkit-animation-name: shift2;
               animation-name: shift2;
