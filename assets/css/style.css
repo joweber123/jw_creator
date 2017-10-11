@@ -6,17 +6,17 @@
   height: 15px;
   border-radius: 50%; }
   .loader:nth-child(1) {
-    background-color: #e54513;
+    background-color: #B4DBC0;
     -webkit-animation: bounce 1s ease-in-out .10s infinite;
             animation: bounce 1s ease-in-out .10s infinite; }
   .loader:nth-child(2) {
     left: calc(50% + 20px);
-    background-color: #de3935;
+    background-color: #B56357;
     -webkit-animation: bounce 1s ease-in-out .30s infinite;
             animation: bounce 1s ease-in-out .30s infinite; }
   .loader:nth-child(3) {
     left: calc(50% - 40px);
-    background-color: #64b6f1;
+    background-color: #A7B3A5;
     -webkit-animation: bounce 1s ease-in-out  infinite;
             animation: bounce 1s ease-in-out  infinite; }
 
@@ -129,19 +129,44 @@
     opacity: .6; }
 
 .portfolio {
-  margin-top: 20px;
-  background-image: url(../images/portfolio-background.jpg);
-  background-size: contain;
-  -webkit-transform: skewY(10deg);
-          transform: skewY(10deg);
-  margin-top: 10vh; }
-  @media (min-width: 800px) {
-    .portfolio {
-      margin-top: 10vh; } }
+  margin-top: 7vh; }
 
-.portfolio-container {
-  -webkit-transform: skewY(-10deg);
-          transform: skewY(-10deg); }
+.skew-10-container {
+  -webkit-transform: skewY(-4deg);
+          transform: skewY(-4deg); }
+
+.skew-10 {
+  -webkit-transform: skewY(4deg);
+          transform: skewY(4deg);
+  position: relative;
+  z-index: 1;
+  background: -webkit-linear-gradient(right, rgba(180, 219, 192, 0.8), rgba(202, 235, 242, 0.7));
+  background: linear-gradient(-90deg, rgba(180, 219, 192, 0.8), rgba(202, 235, 242, 0.7)); }
+
+.span-color {
+  height: 100vh;
+  width: 100vw;
+  background: #6B7A8F;
+  -webkit-transform: skewY(-2deg);
+          transform: skewY(-2deg);
+  position: absolute; }
+
+.top-span {
+  -webkit-transform: skewY(-4deg);
+          transform: skewY(-4deg);
+  background: #4C5F79; }
+
+.skew-25-container {
+  -webkit-transform: skewY(-15deg);
+          transform: skewY(-15deg);
+  margin-top: 7vh; }
+
+.skew-25 {
+  -webkit-transform: skewY(15deg);
+          transform: skewY(15deg);
+  position: relative;
+  background: -webkit-linear-gradient(right, rgba(247, 195, 49, 0.8), rgba(247, 136, 47, 0.7));
+  background: linear-gradient(-90deg, rgba(247, 195, 49, 0.8), rgba(247, 136, 47, 0.7)); }
 
 .portfolio-thumb:hover {
   -webkit-filter: sepia(50%);

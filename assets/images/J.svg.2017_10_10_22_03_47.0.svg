@@ -28,48 +28,24 @@
      inkscape:window-height="686"
      id="namedview4242"
      showgrid="false"
-     inkscape:zoom="0.50285185"
-     inkscape:cx="147.96446"
-     inkscape:cy="455.91555"
+     inkscape:zoom="0.35556995"
+     inkscape:cx="-25.373918"
+     inkscape:cy="553.52792"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="0"
-     inkscape:current-layer="g6101" />
+     inkscape:current-layer="layer1" />
   <defs
      id="defs8476">
-    <linearGradient
-       id="linearGradient4170"
-       inkscape:collect="always">
-      <stop
-         id="stop4172"
-         offset="0"
-         style="stop-color:#fdf0cc;stop-opacity:1" />
-      <stop
-         style="stop-color:#f7c331;stop-opacity:1"
-         offset="0.22629783"
-         id="stop4174" />
-      <stop
-         id="stop4178"
-         offset="0.67317277"
-         style="stop-color:#f7c331;stop-opacity:1" />
-      <stop
-         id="stop4176"
-         offset="1"
-         style="stop-color:#f7882f;stop-opacity:1" />
-    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4148">
       <stop
-         style="stop-color:#ffffff;stop-opacity:1"
+         style="stop-color:#f7c331;stop-opacity:1;"
          offset="0"
          id="stop4150" />
       <stop
-         id="stop4158"
-         offset="0.48450077"
-         style="stop-color:#f7c331;stop-opacity:1" />
-      <stop
-         style="stop-color:#f7882f;stop-opacity:1"
+         style="stop-color:#f7c331;stop-opacity:0;"
          offset="1"
          id="stop4152" />
     </linearGradient>
@@ -90,20 +66,11 @@
        inkscape:collect="always"
        xlink:href="#linearGradient4148"
        id="linearGradient4154"
-       x1="778.80145"
-       y1="701.45715"
-       x2="970.37341"
-       y2="369.59561"
+       x1="506"
+       y1="673.33331"
+       x2="931"
+       y2="673.33331"
        gradientUnits="userSpaceOnUse" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient4170"
-       id="linearGradient4160"
-       gradientUnits="userSpaceOnUse"
-       x1="373.19403"
-       y1="867.47083"
-       x2="987.13068"
-       y2="228.69365" />
   </defs>
   <metadata
      id="metadata8479">
@@ -126,7 +93,7 @@
        id="g6101">
       <path
          d="m 837,287.33333 c 6,35 8,64 8,112 l 0,446 c 0,100 -38,144 -123,144 -43,0 -78,-13 -102,-39 -14,-15 -22,-29 -35,-60 l -79,33 c 20,40 31,57 50,76 38,38.99997 95,59.99997 165,59.99997 73,0 128,-21 161,-62.99997 28,-36 41,-83 41,-151 l 0,-446 c 0,-50 2,-75 8,-112 l -94,0 z"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:1000px;font-family:'Hiragino Kaku Gothic Pro';-inkscape-font-specification:'Hiragino Kaku Gothic Pro Light';fill:url(#linearGradient4160);fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:1000px;font-family:'Hiragino Kaku Gothic Pro';-inkscape-font-specification:'Hiragino Kaku Gothic Pro Light';fill:url(#linearGradient4154);fill-opacity:1"
          id="path6103" />
     </g>
     <g

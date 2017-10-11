@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>JW Creator</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -21,11 +21,11 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/skeleton.css">
-  <link rel="stylesheet" href="assets/css/portfolio3.css">
+  <link rel="stylesheet" href="assets/css/portfolio1.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -40,11 +40,79 @@
 
 </head>
 <body>
-
+  <div class="loader"></div>
+  <div class="loader"></div>
+  <div class="loader"></div>
+  <p class="loader-text">loading...</p>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <h1>This is project 3</h1>
-  <a href="index.html"> <button type="button" name="button">home</button></a>
+  <div class="whole-page">
+
+
+  <div class="section p-header">
+    <div class="header-nav">
+      <img class="logo logo-header" src="assets/images/logo.svg" alt="">
+      <a href="index.html#portfolio3"><img class="back-arrow back-arrow-header"src="assets/images/backarrow.svg" alt=""></a>
+    </div>
+    <div class="header-banner header-banner-blogger">
+      <h1 class="text-center portfolio-header-banner">IsobelRainey.com</h1>
+      <a class="site-link text-center"href="http://www.isobelrainey.com/" target="blank"><h3>visit site</h3></a>
+    </div>
+  </div>
+
+  <div class="p-information container">
+    <h4 class="p-information-objects">HTML</h4>
+    <h4 class="p-information-objects">SASS</h4>
+    <h4 class="p-information-objects">Javascript</h4>
+    <h4 class="p-information-objects">Bootstrap</h4>
+    <h4 class="p-information-objects">Google Analytics</h4>
+    <h4 class="p-information-objects">Github pages</h4>
+
+  </div>
+
+  <div class="section p-about ">
+    <div class="container">
+        <h2 class="portfolio-header">Plan</h2>
+        <p class="portfolio-paragraph">My friend and author approached me and asked if I would be able to make her a website to promote the new book she was publishing.  I thought it would be a great opportunity to apply what I had been learning to a real world project and quickly accepted her offer. </p>
+    </div>
+  </div>
+
+  <div class="section p-story ">
+    <div class="container">
+        <div class="row">
+          <h2 class="portfolio-header">Design</h2>
+          <p class="portfolio-paragraph"> She had no real guidelines for the sort of website she wanted so I began by imagining what sort of information a book website should hold.  Obviously it should point users to where they can buy the book, so I made sure that the CTA was very clear and obviously marked. Since the author wanted this to be less a personal site and more of a site dedicated to the book, I decided to put the book and book's information prominently displayed as the first thing on the page.  If the user decides to continue to read after seeing the book information, they can view a bit more information about the author.  After that I wanted to reinforce the why the user visited the page in the first page so I again hark back to the book with quotes from experts who have read the book and can vouch for its worth.  To finish we have links to other books she has contributed to, a few short excerpts from the book, and a clear "contact" button.  </p>
+          <img class="columns eight offset-by-two" src="assets/images/isobel-wireframe.png" alt="">
+        </div>
+        <div class="row">
+          <h2 class="portfolio-header">Responsive</h2>
+          <p class="portfolio-paragraph">I love how this site looks on mobile.  All of the buttons pop and it is really easy to navigate.  This was my first time to use bootstrap on a site.  It was a really easy way to get started on the site and disecting the source css gave me lots of insight into how frameworks function in general.  Personally, I prefer smaller frameworks like "skeleton" which is much more lightweight from the start, or just to create my own small framework specific for the site's needs to make my code as sparce as possible. </p>
+          <div class="flex-box">
+            <img class="flex-child" src="assets/images/isobel-iphone-horizontal.jpg" alt="">
+            <img class="flex-child-vertical" src="assets/images/isobel-iphone-vertical.jpg" alt="">
+            <img class="flex-child" src="assets/images/isobel-desktop-version.jpg" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <h2 class="portfolio-header">Publish</h2>
+          <p class="portfolio-paragraph">The book's cover was already designed when I was asked to make this site so I tried to incorportate subtely the leaf theme found on the cover into my header and footer to give the site a connected feel.  It actually made my job as a designer quite a bit easier because I had a color and design base to launch my own webpage design from.  I proposed to the author that I could make this into a wordpress theme for her so it would be easily editable, but she declined and said she won't be changing it in the near future.  Therefore we are continuing to host it from github pages with a custom google domain.  I think we are both really happy with how the design turned out and it was a great learning experience for bootstarp, wordpress (I actually ended up making the page into a wordpress theme which never got used), and custom google domains.</p>
+          <img class="six columns desktop offset-by-two" src="assets/images/isobel-mockup-desktop.png" alt="">
+          <img class="two columns desktop-left" src="assets/images/isobel-mockup-phone.png" alt="">
+
+
+        </div>
+
+    </div>
+  </div>
+  <div class="secion p-footer">
+    <div class="container">
+      <div class="row">
+        <img class="logo logo-footer" src="assets/images/logo.svg" alt="">
+        <a class="back-arrow back-arrow-footer" href="index.html#portfolio2"><img class="back-arrow-footer" src="assets/images/backarrow.svg" alt=""></a>
+      </div>
+    </div>
+  </div>
+  </div>
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 

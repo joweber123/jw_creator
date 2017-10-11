@@ -17,6 +17,42 @@
   right: 0;
   bottom: 0; }
 
+.circle {
+  -webkit-transform: scale(0.9);
+          transform: scale(0.9);
+  -webkit-filter: drop-shadow(1px 1px 2px #888888);
+          filter: drop-shadow(1px 1px 2px #888888);
+  -webkit-animation-name: circle;
+          animation-name: circle;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: ease-in-out;
+          animation-timing-function: ease-in-out; }
+
+@-webkit-keyframes circle {
+  0% {
+    -webkit-filter: drop-shadow(1px 1px 2px #888888);
+            filter: drop-shadow(1px 1px 2px #888888); }
+  50% {
+    -webkit-filter: drop-shadow(1px 1px 4px blue);
+            filter: drop-shadow(1px 1px 4px blue); }
+  100% {
+    -webkit-filter: drop-shadow(1px 1px 2px #888888);
+            filter: drop-shadow(1px 1px 2px #888888); } }
+
+@keyframes circle {
+  0% {
+    -webkit-filter: drop-shadow(1px 1px 2px #888888);
+            filter: drop-shadow(1px 1px 2px #888888); }
+  50% {
+    -webkit-filter: drop-shadow(1px 1px 4px blue);
+            filter: drop-shadow(1px 1px 4px blue); }
+  100% {
+    -webkit-filter: drop-shadow(1px 1px 2px #888888);
+            filter: drop-shadow(1px 1px 2px #888888); } }
+
 .cover {
   z-index: 100;
   position: absolute;
@@ -419,17 +455,17 @@
       .cover-box .flex-box .row .boxdif1 {
         background-color: #E54623; }
       .cover-box .flex-box .row .boxdif2 {
-        background-color: #E54623; }
+        background-color: #A7B3A5; }
       .cover-box .flex-box .row .boxdif3 {
         background-color: #E54623; }
       .cover-box .flex-box .row .boxdif4 {
-        background-color: #E54623; }
+        background-color: #B4DBC0; }
       .cover-box .flex-box .row .boxdif5 {
         background-color: #E54623; }
       .cover-box .flex-box .row .boxdif6 {
         background-color: #DD3C3C; }
       .cover-box .flex-box .row .boxdif7 {
-        background-color: #69B9F2; }
+        background-color: #CAEBF2; }
       .cover-box .flex-box .row .box {
         width: 10vh;
         height: 10vh; }

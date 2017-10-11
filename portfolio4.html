@@ -5,7 +5,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>JW Creator</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -21,11 +21,11 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="assets/css/normalize.css">
   <link rel="stylesheet" href="assets/css/skeleton.css">
-  <link rel="stylesheet" href="assets/css/portfolio4.css">
+  <link rel="stylesheet" href="assets/css/portfolio1.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
 
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -40,11 +40,84 @@
 
 </head>
 <body>
-
+  <div class="loader"></div>
+  <div class="loader"></div>
+  <div class="loader"></div>
+  <p class="loader-text">loading...</p>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <h1>This is project 4</h1>
-  <a href="index.html"> <button type="button" name="button">home</button></a>
+  <div class="whole-page">
+
+
+  <div class="section p-header">
+    <div class="header-nav">
+      <img class="logo logo-header" src="assets/images/logo.svg" alt="">
+      <a href="index.html#portfolio4"><img class="back-arrow back-arrow-header"src="assets/images/backarrow.svg" alt=""></a>
+    </div>
+    <div class="header-banner header-banner-blogger">
+      <h1 class="text-center portfolio-header-banner">React Japanese Study App</h1>
+      <a class="site-link text-center"href="https://joweber123.github.io/react-kanji-study/" target="blank"><h3>visit site</h3></a>
+    </div>
+  </div>
+
+  <div class="p-information container">
+    <h4 class="p-information-objects">React</h4>
+    <h4 class="p-information-objects">HTML</h4>
+    <h4 class="p-information-objects">Vanilla CSS</h4>
+    <h4 class="p-information-objects">JSON</h4>
+    <h4 class="p-information-objects">Javascript</h4>
+    <h4 class="p-information-objects">Github pages</h4>
+
+  </div>
+
+  <div class="section p-about ">
+    <div class="container">
+        <h2 class="portfolio-header">Plan</h2>
+        <p class="portfolio-paragraph">I live in Japan and would love one day love to pass the highest level Japanese test, the JLPT1.  One day, while poking around on youtube learning more about how to program using React, I stumbled upon <a class="site-link" href="https://www.youtube.com/watch?v=5qkupdkdzAc" target="blank">a video </a>that I thought was pretty clever.  He talked about how programming in and of itself is not very important, but rather what you are able to do with program that instead should be the focus.  So I thought that it would be a good motivation to try and program something that solved a particular problem for myself.  At the moment it is trying to pass this particular test, for which I need to study and learn many Kanji.  Since I also wanted a particular challenge to test out what I had been learning in React I thought the two would go well hand in hand with each other.  Here is the original design I came up with for what I wanted to accomplish with my app.  I wanted to loop over a big JSON file that I found which contained the kanji, its different pronunciations, and what test it is found in.  I had never really gotten deep into JSON before so it was a great opportunity to learn more about what it is and how to manipulate the dats which it holds.  After experimenting and hours and hours of researching the inner workings of React I was able to to pull out all of the data that I needed from the JSON file, split it up into its respective test category and then display one entry at a time.    </p>
+        <img class="six columns offset-by-three" src="assets/images/react-wireframe1.png" alt="">
+    </div>
+  </div>
+
+  <div class="section p-story ">
+    <div class="container">
+        <div class="row">
+          <h2 class="portfolio-header">Design</h2>
+          <p class="portfolio-paragraph">Once I was able to manipulate the data to my liking it became that I needed to have some buttons so the user could choose which test they wanted to study for.  I also needed to add some buttons to go backwards while looping over my JSON because it is quite inconvenient if you can only go forward over the list.  I also thought a bit more about the design which I wanted to achieve and how that would look on mobile as well as desktop devices.  </p>
+          <img class="six columns offset-by-three" src="assets/images/react-wireframe2.png" alt="">
+        </div>
+        <div class="row">
+          <h2 class="portfolio-header">Responsive</h2>
+          <p class="portfolio-paragraph">I think that this app looks really great on a mobile device and since my favorite app to study kanji was discontinued I have been longing for a way to quickly quiz myself while standing on the train or in line.  This app which I created lets me study just as effectively on my desktop as my mobile.  Since it is all React, there is no refreshing of the browser so it runs super fast on mobile devices. </p>
+          <div class="flex-box">
+            <img class="flex-child" src="assets/images/react-iphone-horizontal.jpg" alt="">
+            <img class="flex-child-vertical" src="assets/images/react-iphone-vertical.jpg" alt="">
+            <img class="flex-child" src="assets/images/react-desktop-version.jpg" alt="">
+          </div>
+        </div>
+        <div class="row">
+          <h2 class="portfolio-header">Publish</h2>
+          <p class="portfolio-paragraph">The last change I made to date has been to add the blur button which blurs out the answer so the user can quiz themselves more effectively.  I would like to take this app one step further in the future and allow for the user to log in and tailor the app a bit more to their own preferences.  I would like them to be able to uncheck words they feel they don't need to study, and perhaps make allow them to make their own list of words that they want to study. This is the first real app that I have programmed that solves a particular problem and I am so excited to share it with friends to help their study efforts as well.  Since it just loops over JSON data, it could be adapted very quickly to any study actually and I hope to make a few different study versions as well in the future.</p>
+          <img class="four columns desktop mockup-four-column" src="assets/images/react-mockup-phone.png" alt="">
+          <img class="eight columns react-phone-mockup" src="assets/images/react-mockup-blur.png" alt="">
+
+          <img class="eight columns react-phone-mockup" src="assets/images/react-mockup-noblur.png" alt="">
+
+
+
+
+        </div>
+
+    </div>
+  </div>
+  <div class="secion p-footer">
+    <div class="container">
+      <div class="row">
+        <img class="logo logo-footer" src="assets/images/logo.svg" alt="">
+        <a class="back-arrow back-arrow-footer" href="index.html#portfolio2"><img class="back-arrow-footer" src="assets/images/backarrow.svg" alt=""></a>
+      </div>
+    </div>
+  </div>
+  </div>
   <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 

@@ -10,6 +10,28 @@
   right: 0
   bottom: 0
 
+.circle
+  transform: scale(.9)
+  filter: drop-shadow(1px 1px 2px #888888)
+  animation-name: circle
+  animation-duration: 6s
+  animation-iteration-count: infinite
+  animation-timing-function: ease-in-out
+
+  @keyframes circle
+    0%
+      filter: drop-shadow(1px 1px 2px #888888)
+    50%
+      filter: drop-shadow(1px 1px 4px blue)
+
+
+    100%
+      filter: drop-shadow(1px 1px 2px #888888)
+
+
+
+
+
 
 .cover
   z-index: 100
@@ -18,7 +40,7 @@
   left: 50%
   transform: translate(-50%, -50%)
   height: 90vh
-  
+
 
 .cover-box
   overflow: hidden
@@ -46,6 +68,7 @@
       animation-duration: 6s
       animation-fill-mode: forwards
       animation-iteration-count: 1
+
       @keyframes shift2
         0%
           transform: translateY(0px)
@@ -161,6 +184,7 @@
       animation-duration: 6s
       animation-fill-mode: forwards
       animation-iteration-count: 1
+
       @keyframes shift8
         0%
           transform: translateY(0px)
@@ -193,8 +217,10 @@
       flex-direction: column
       .box1
         background-color: #111
+
       .box2
         background-color: #222
+
       .box3
         background-color: #333
       .box4
@@ -212,18 +238,18 @@
       .boxdif1
         background-color: #E54623
       .boxdif2
-        background-color: #E54623
+        background-color: #A7B3A5
       .boxdif3
         background-color: #E54623
       .boxdif4
-        background-color: #E54623
+        background-color: #B4DBC0
       .boxdif5
         background-color: #E54623
       .boxdif6
         background-color: #DD3C3C
 
       .boxdif7
-        background-color: #69B9F2
+        background-color: #CAEBF2
 
       .box
         width: 10vh

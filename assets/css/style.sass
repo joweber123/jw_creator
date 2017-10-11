@@ -13,15 +13,15 @@ $cta-color: #DD3C3C
   height: 15px
   border-radius: 50%
   &:nth-child(1)
-    background-color: #e54513
+    background-color: #B4DBC0
     animation: bounce 1s ease-in-out .10s infinite
   &:nth-child(2)
     left: calc(50% + 20px)
-    background-color: #de3935
+    background-color: #B56357
     animation: bounce 1s ease-in-out .30s infinite
   &:nth-child(3)
     left: calc(50% - 40px)
-    background-color: #64b6f1
+    background-color: #A7B3A5
     animation: bounce 1s ease-in-out  infinite
 @keyframes bounce
   0%, 75%, 100%
@@ -106,16 +106,38 @@ $cta-color: #DD3C3C
     opacity: .6
 
 .portfolio
-  margin-top: 20px
-  background-image: url(../images/portfolio-background.jpg)
-  background-size: contain
-  transform: skewY(10deg)
-  margin-top: 10vh
-  @media (min-width: 800px)
-    margin-top: 10vh
+  margin-top: 7vh
 
-.portfolio-container
-  transform: skewY(-10deg)
+.skew-10-container
+  transform: skewY(-4deg)
+.skew-10
+  transform: skewY(4deg)
+  position: relative
+  z-index: 1
+  background: linear-gradient(-90deg, rgba(180, 219, 192, 0.8), rgba(202, 235, 242, 0.7))
+
+
+
+.span-color
+  height: 100vh
+  width: 100vw
+  background: #6B7A8F
+  transform: skewY(-2deg)
+  position: absolute
+.top-span
+  transform: skewY(-4deg)
+  background: #4C5F79
+
+
+
+.skew-25-container
+  transform: skewY(-15deg)
+  margin-top: 7vh
+.skew-25
+  transform: skewY(15deg)
+  position: relative
+  background: linear-gradient(-90deg, rgba(247, 195, 49, 0.8), rgba(247, 136, 47, 0.7))
+
 
 .portfolio-thumb
   &:hover
