@@ -149,6 +149,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/blog-header.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"oA": 0,
+		"oAP": "\/assets\/images\/blog-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/images\/blog-iphone-horizontal.jpg": {
 		"ft": 16384,
 		"iS": 0,
@@ -822,6 +832,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/react-header.jpg": {
+		"ft": 16384,
+		"iS": 55122,
+		"oA": 0,
+		"oAP": "\/assets\/images\/react-header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/assets\/images\/react-iphone-horizontal.jpg": {
