@@ -179,9 +179,22 @@ h4 {
 .desktop-left {
   border: solid 1px gray;
   border-radius: 5px; }
-  @media (min-width: 550px) {
-    .desktop-left {
-      margin-left: 4%; } }
+
+.mobile-mockup {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  float: none;
+  top: 20px;
+  position: relative;
+  margin-bottom: 20px; }
+  @media (min-width: 800px) {
+    .mobile-mockup {
+      width: 100%;
+      float: left;
+      margin-left: 4%;
+      position: static; } }
 
 .p-about {
   margin-top: 5px; }
