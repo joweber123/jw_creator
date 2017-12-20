@@ -39,6 +39,12 @@ $cta-color: #DD3C3C
 
 .center
   text-align: center
+.flex-container
+  display: flex
+  justify-content: center
+  align-items: center
+
+
 
 .flex
   display: flex
@@ -75,6 +81,10 @@ $cta-color: #DD3C3C
   @media (min-width: 1000px)
     padding-top: 70px
     width: 60%
+.mobile-add-height
+  margin-top: 7vh
+  @media (min-width: 800px)
+    margin-top: 0
 
 .description
   max-width: 100%
@@ -87,13 +97,68 @@ $cta-color: #DD3C3C
     text-align: justify
 
 .about-description
+  opacity: 0
   max-width: 100%
   margin-left: auto
   margin-right: auto
   padding-top: 10px
+  position: absolute
+  transition: .1s ease-in-out
+
   @media (min-width: 800px)
     max-width: 60%
+    margin-left: 20%
+.about-description
+  &:nth-child(1)
+    font-family: "Noto Sans Japanese"
+    font-weight: 200
 
+.about-description-container
+  height: 250px
+  @media (min-width: 550px)
+    height: 200px
+.bio-more-container
+  height: 900px
+  @media (min-width: 550px)
+    height: 700px
+  @media (min-width: 800px)
+    height: 800px
+  @media (min-width: 1000px)
+    height: 650px
+  @media (min-width: 1200px)
+    height: 600px
+.bio-more-child
+  opacity: 0
+  position: absolute
+  max-width: 100%
+  margin-left: auto
+  margin-right: auto
+  text-align: justify
+  transition: .1s ease-in-out
+  @media (min-width: 800px)
+    max-width: 60%
+    margin-left: 20%
+.bio-more-child
+  padding-top: 20px
+  &:nth-child(1)
+    font-family: "Noto Sans Japanese"
+    font-weight: 200
+
+.bio-more-button
+  font-size: 3rem
+  font-weight: 300
+
+.show
+  opacity: 100
+  transition: .1s ease-in-out
+.language-selector-child
+  cursor: pointer
+  padding: 0 10px
+  border-bottom: 1px white solid
+  transition: .1s ease-in-out
+.language-selector-child:hover
+  border-bottom: 1px #69B9F2 solid
+  transition: .1s ease-in-out
 .about-pic-box
   overflow: hidden
 
@@ -180,6 +245,8 @@ $cta-color: #DD3C3C
 .contact-links
   text-decoration: none
   color: $cta-color
+  transition: .1s ease-in-out
+  border-bottom: 1px white solid
   &:hover
     color: $cta-color
     border-bottom: 1px #69B9F2 solid

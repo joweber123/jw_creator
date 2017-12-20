@@ -61,6 +61,12 @@
 .header-banner-isobel {
   background-image: url(../images/blog-header.jpg); }
 
+.header-banner-take-me-there {
+  background-image: url(../images/take-me-there-header.png); }
+
+.header-banner-weather-app {
+  background-image: url(../images/weather-app-background.jpg); }
+
 .header-banner {
   padding-top: 20vh;
   text-align: center;
@@ -227,9 +233,26 @@ h4 {
         width: 20%; } }
 
 .p-footer {
-  background-image: url(../images/wedding-header.jpg);
   padding-top: 10vh;
   margin-top: 20px; }
+
+.p-footer-1 {
+  background-image: url(../images/wedding-header.jpg); }
+
+.p-footer-2 {
+  background-image: url(../images/blogger-header.jpg); }
+
+.p-footer-3 {
+  background-image: url(../images/blog-header.jpg); }
+
+.p-footer-4 {
+  background-image: url(../images/react-header.jpg); }
+
+.p-footer-5 {
+  background-image: url(../images/weather-app-background.jpg); }
+
+.p-footer-6 {
+  background-image: url(../images/take-me-there-header.png); }
 
 .logo-footer {
   display: block;
@@ -255,3 +278,27 @@ h4 {
     .back-arrow-footer {
       width: 4vw;
       padding-top: 10px; } }
+
+.portfolio-paragraph {
+  clear: both; }
+
+.border {
+  border: solid 1px #e5e5e5;
+  border-radius: 5px; }
+
+.space-bottom {
+  margin-bottom: 25px; }
+
+.link {
+  text-decoration: none;
+  color: #D83434; }
+
+.link:hover {
+  text-align: none;
+  color: #D83434;
+  -webkit-filter: opacity(70%);
+          filter: opacity(70%); }
+
+.mobile-small {
+  margin-left: 25%;
+  width: 50%; }

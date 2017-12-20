@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>JW Creator</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="assets/css/normalize.css">
+  <link rel="stylesheet" href="assets/css/skeleton.css">
+  <link rel="stylesheet" href="assets/css/portfolio1.css">
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-100327188-3', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+</head>
+<body>
+  <div class="loader"></div>
+  <div class="loader"></div>
+  <div class="loader"></div>
+  <p class="loader-text">loading...</p>
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="whole-page">
+
+
+  <div class="section p-header">
+    <div class="header-nav">
+      <img class="logo logo-header" src="assets/images/logo.svg" alt="">
+      <a href="index.html#portfolio5"><img class="back-arrow back-arrow-header"src="assets/images/backarrow.svg" alt=""></a>
+    </div>
+    <div class="header-banner header-banner-weather-app">
+      <h1 class="text-center portfolio-header-banner">React Weather App</h1>
+      <a class="site-link text-center"href="https://joweber123.github.io/react-weather-app/" target="blank"><h3>visit site</h3></a>
+    </div>
+  </div>
+
+  <div class="p-information container">
+    <h4 class="p-information-objects">React</h4>
+    <h4 class="p-information-objects">Google Timezone API</h4>
+    <h4 class="p-information-objects">Open Weather Map API</h4>
+    <h4 class="p-information-objects">ES6</h4>
+    <h4 class="p-information-objects">Babel</h4>
+    <h4 class="p-information-objects">Google Analytics</h4>
+    <h4 class="p-information-objects">Github pages</h4>
+
+  </div>
+
+  <div class="section p-about ">
+    <div class="container">
+        <h2 class="portfolio-header">Plan</h2>
+        <p class="portfolio-paragraph">This app was born out of my desire to learn more about APIs in general.  I had honestly never used an API before and wanted to build another React App to practice.  As I have lived abroad for the past 10 years in a variety of countries I sometimes like to check in on the weather in places I have lived in the past to see how my loved ones are spending there days. Thus this simple React app was born. </p>
+    </div>
+  </div>
+
+  <div class="section p-story ">
+    <div class="container">
+        <div class="row">
+          <h2 class="portfolio-header">Process</h2>
+          <p class="portfolio-paragraph">When I set out to create this application, the logic for it was fairly simple.  I just wanted to be able type in a city's name, click a button and have that city's weather data displayed. There is a free API called <a class="link" href="https://openweathermap.org/">openweathermap.org</a> which offers up wonderful weather data for free.  It look a while to learn how to use React's life cycle hooks and to understand Javascript's asyncronous nature when trying to pull data from an API.  Honestly just this first step took me quite a long time as this was my first time working wit APIs. </p>
+          <img class="columns eight offset-by-two border space-bottom" src="assets/images/React-weather-app-test-1.png" alt="">
+          <p class="portfolio-paragraph">Once I got the basic logic down I realized that  <a class="link" href="https://openweathermap.org/">openweathermap.org</a> also offered an API which gave a city's weather forcast.  I thought it would add a bit more functionality to my app if I hooked into that API as well.  Everything went quite smoothly until I realized that the API expressed time in UTC, Coordinated Universal Time and does not give the time at that destination which you are accessing.  I thought that it would be quite difficult for the user to understand if I just put the forcast 3 hours from now, or 6 hours from now, and that it would be easier to understand if it gave the local time at that destination.  This proved to bit more cumbersome than expected.  Basically I needed to grab the city that the user input, fetch the openweathermap data, then use that location to access google's map API to get see how much that location is offset from UTC and to see if that location is affected by day light savings time.  Quite the hastle just to display the time, but I think that for the person looking at the displayed data, that is just what is expected.</p>
+          <img class="columns eight offset-by-two border space-bottom" src="assets/images/React-weather-app-test-2.png" alt="">
+        </div>
+        <div class="row">
+          <h2 class="portfolio-header">Publish</h2>
+          <p class="portfolio-paragraph">Now that all of the logic was in place, I created a fun background with some weather shapes and designed a layout that looks great on both desktop and mobile. This project is hosted on github pages so please feel free to have a look and try out the app for yourself</p>
+        <img class="columns eight offset-by-two border space-bottom" src="assets/images/React-weather-app.png" alt="">
+        <img class="columns four offset-by-four border space-bottom mobile-small" src="assets/images/React-weather-app-mobile.png" alt="">
+        </div>
+
+
+    </div>
+  </div>
+  <div class="secion p-footer-5 p-footer">
+    <div class="container">
+      <div class="row">
+        <img class="logo logo-footer" src="assets/images/logo.svg" alt="">
+        <a class="back-arrow back-arrow-footer" href="index.html#portfolio2"><img class="back-arrow-footer" src="assets/images/backarrow.svg" alt=""></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <script src="assets/js/jquery-2.1.4.min.js"></script>
+  <script src="assets/js/functions.js" type="text/javascript"></script>
+
+</body>
+</html>

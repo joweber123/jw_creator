@@ -632,6 +632,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/images\/Lorem ipsum dolor si.png": {
+		"ft": 32768,
+		"iS": 33945,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Lorem ipsum dolor si.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/mac-mock.jpg": {
 		"ft": 16384,
 		"iS": 4096,
@@ -689,6 +700,72 @@
 		"iS": 3913066,
 		"oA": 0,
 		"oAP": "\/assets\/images\/mock-up-desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Place Details.png": {
+		"ft": 32768,
+		"iS": 1994,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Place Details.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Place Name Copy 2.png": {
+		"ft": 32768,
+		"iS": 1555,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Place Name Copy 2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Place Name Copy 3.png": {
+		"ft": 32768,
+		"iS": 1555,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Place Name Copy 3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Place Name Copy.png": {
+		"ft": 32768,
+		"iS": 1555,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Place Name Copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Place Name Editable.png": {
+		"ft": 32768,
+		"iS": 2556,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Place Name Editable.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Place Name.png": {
+		"ft": 32768,
+		"iS": 1555,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Place Name.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -930,6 +1007,61 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/React-weather-app-mobile.png": {
+		"ft": 32768,
+		"iS": 62643,
+		"oA": 0,
+		"oAP": "\/assets\/images\/React-weather-app-mobile.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/React-weather-app-test-1.png": {
+		"ft": 32768,
+		"iS": 38744,
+		"oA": 0,
+		"oAP": "\/assets\/images\/React-weather-app-test-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/React-weather-app-test-2.png": {
+		"ft": 32768,
+		"iS": 43818,
+		"oA": 0,
+		"oAP": "\/assets\/images\/React-weather-app-test-2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/React-weather-app.png": {
+		"ft": 32768,
+		"iS": 148968,
+		"oA": 0,
+		"oAP": "\/assets\/images\/React-weather-app.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/react-weather-thumb.png": {
+		"ft": 32768,
+		"iS": 116469,
+		"oA": 0,
+		"oAP": "\/assets\/images\/react-weather-thumb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/react-wireframe1.png": {
 		"ft": 32768,
 		"iS": 38278,
@@ -952,6 +1084,83 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/images\/Rectangle 2 Copy 2.png": {
+		"ft": 32768,
+		"iS": 448,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Rectangle 2 Copy 2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Rectangle 2 Copy.png": {
+		"ft": 32768,
+		"iS": 3923,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Rectangle 2 Copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Rectangle 2.png": {
+		"ft": 32768,
+		"iS": 448,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Rectangle 2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Rectangle 26 Copy.png": {
+		"ft": 32768,
+		"iS": 3015,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Rectangle 26 Copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Rectangle 26.png": {
+		"ft": 32768,
+		"iS": 3015,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Rectangle 26.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Rectangle 27 Copy.png": {
+		"ft": 32768,
+		"iS": 2089,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Rectangle 27 Copy.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Rectangle 27.png": {
+		"ft": 32768,
+		"iS": 2089,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Rectangle 27.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/images\/signsvg.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -961,6 +1170,105 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/images\/Take Me There Test 2.png": {
+		"ft": 32768,
+		"iS": 8845,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Take Me There Test 2.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/take-me-there-header.png": {
+		"ft": 32768,
+		"iS": 266341,
+		"oA": 0,
+		"oAP": "\/assets\/images\/take-me-there-header.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/take-me-there-test-1.png": {
+		"ft": 32768,
+		"iS": 81071,
+		"oA": 0,
+		"oAP": "\/assets\/images\/take-me-there-test-1.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/take-me-there-test-2.png": {
+		"ft": 32768,
+		"iS": 107165,
+		"oA": 0,
+		"oAP": "\/assets\/images\/take-me-there-test-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Take-me-there-test-3.png": {
+		"ft": 32768,
+		"iS": 474254,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Take-me-there-test-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/take-me-there-test-4.png": {
+		"ft": 32768,
+		"iS": 406601,
+		"oA": 0,
+		"oAP": "\/assets\/images\/take-me-there-test-4.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/Take-me-there-test-5.png": {
+		"ft": 32768,
+		"iS": 3258623,
+		"oA": 0,
+		"oAP": "\/assets\/images\/Take-me-there-test-5.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/take-me-there-thumb.png": {
+		"ft": 32768,
+		"iS": 612540,
+		"oA": 0,
+		"oAP": "\/assets\/images\/take-me-there-thumb.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/This is edited text..png": {
+		"ft": 32768,
+		"iS": 4763,
+		"oA": 0,
+		"oAP": "\/assets\/images\/This is edited text..png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/assets\/images\/w.svg": {
 		"ft": 2097152,
@@ -981,6 +1289,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/images\/weather-app-background.jpg": {
+		"ft": 16384,
+		"iS": 21525,
+		"oA": 0,
+		"oAP": "\/assets\/images\/weather-app-background.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/images\/wedding-header.jpg": {
 		"ft": 16384,
@@ -1152,6 +1470,18 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio4.html",
+		"oF": 0
+		},
+	"\/portfolio5.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio5.html",
+		"oF": 0
+		},
+	"\/portfolio6.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/portfolio6.html",
 		"oF": 0
 		},
 	"\/README.md": {
