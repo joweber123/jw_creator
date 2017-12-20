@@ -186,8 +186,17 @@
     font-weight: 200; }
 
 .bio-more-button {
-  font-size: 3rem;
-  font-weight: 300; }
+  font-size: 1.5rem;
+  font-weight: 300;
+  text-transform: lowercase;
+  color: inherit;
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out; }
+
+.bio-more-button:hover {
+  border: 1px #69B9F2 solid;
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out; }
 
 .show {
   opacity: 100;
