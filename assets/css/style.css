@@ -237,7 +237,7 @@
           transform: skewY(4deg);
   position: relative;
   z-index: 1;
-  background: -webkit-linear-gradient(right, rgba(180, 219, 192, 0.8), rgba(202, 235, 242, 0.7));
+  background: -webkit-gradient(linear, right top, left top, from(rgba(180, 219, 192, 0.8)), to(rgba(202, 235, 242, 0.7)));
   background: linear-gradient(-90deg, rgba(180, 219, 192, 0.8), rgba(202, 235, 242, 0.7)); }
 
 .span-color {
@@ -262,12 +262,67 @@
   -webkit-transform: skewY(15deg);
           transform: skewY(15deg);
   position: relative;
-  background: -webkit-linear-gradient(right, rgba(247, 195, 49, 0.8), rgba(247, 136, 47, 0.7));
+  background: -webkit-gradient(linear, right top, left top, from(rgba(247, 195, 49, 0.8)), to(rgba(247, 136, 47, 0.7)));
   background: linear-gradient(-90deg, rgba(247, 195, 49, 0.8), rgba(247, 136, 47, 0.7)); }
 
-.portfolio-thumb:hover {
-  -webkit-filter: sepia(50%);
-          filter: sepia(50%); }
+.portfolio-thumb {
+  position: relative;
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out; }
+  .portfolio-thumb:hover {
+    -webkit-filter: hue-rotate(90deg) drop-shadow(3px 3px 5px white);
+            filter: hue-rotate(90deg) drop-shadow(3px 3px 5px white);
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out;
+    cursor: pointer; }
+
+.overlay-container {
+  -webkit-transition: .2s ease-in-out;
+  transition: .2s ease-in-out; }
+  .overlay-container:hover {
+    -webkit-filter: drop-shadow(3px 3px 5px white);
+            filter: drop-shadow(3px 3px 5px white);
+    -webkit-transform: scale(1.01);
+            transform: scale(1.01);
+    -webkit-transition: .2s ease-in-out;
+    transition: .2s ease-in-out; }
+
+.overlay {
+  height: 98%;
+  width: 100%;
+  top: 0;
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: .8;
+  background-color: #FAFAFA;
+  border-radius: 10px; }
+  @media (min-width: 800px) {
+    .overlay {
+      opacity: 0;
+      background-color: none; } }
+
+.overlay:hover {
+  -webkit-transition: .1s ease-in-out;
+  transition: .1s ease-in-out;
+  opacity: .8;
+  background-color: #FAFAFA;
+  border-radius: 10px; }
+
+.overlay span {
+  font-size: 40px;
+  font-weight: 600;
+  -webkit-transform: rotate(20deg);
+          transform: rotate(20deg); }
 
 @media (min-width: 550px) {
   .portfolio-bottom {
@@ -338,3 +393,17 @@
 
 .footer-pic {
   width: 100vw; }
+
+.footer-container .footer-inner-1 {
+  width: 0;
+  height: 0;
+  border-bottom: 70px solid #6B7A8F;
+  border-right: 100vw solid transparent;
+  position: absolute; }
+
+.footer-container .footer-inner-2 {
+  width: 0;
+  height: 0;
+  border-bottom: 70px solid #CA7A45;
+  border-left: 100vw solid transparent;
+  position: absolute; }
