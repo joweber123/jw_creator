@@ -212,8 +212,48 @@ $cta-color: #DD3C3C
 
 
 .portfolio-thumb
+  position: relative
+  transition: .2s ease-in-out
   &:hover
-    filter: sepia(50%)
+    filter: hue-rotate(90deg) drop-shadow(3px 3px 5px white)
+    transform: scale(1.01) 
+    transition: .2s ease-in-out
+    cursor: pointer
+    
+    
+.overlay-container
+  transition: .2s ease-in-out
+  &:hover
+    filter: drop-shadow(3px 3px 5px white)
+    transform: scale(1.01) 
+    transition: .2s ease-in-out
+
+.overlay
+  height: 98%
+  width: 100%
+  top: 0
+  position: absolute
+  display: flex
+  justify-content: center
+  align-items: center
+  opacity: .8
+  background-color: #FAFAFA
+  border-radius: 10px
+  @media (min-width: 800px)
+    opacity: 0
+    background-color: none
+
+.overlay
+  &:hover
+    transition: .1s ease-in-out
+    opacity: .8
+    background-color: #FAFAFA
+    border-radius: 10px
+   
+  span
+    font-size: 40px
+    font-weight: 600
+    transform: rotate(20deg)
 
 .portfolio-bottom
   @media (min-width: 550px)
@@ -276,3 +316,18 @@ $cta-color: #DD3C3C
 
 .footer-pic
   width: 100vw
+.footer-container
+  .footer-inner-1
+    width: 0
+    height: 0
+    border-bottom: 70px solid #6B7A8F
+    border-right: 100vw solid transparent
+    position: absolute
+
+  .footer-inner-2
+    width: 0
+    height: 0
+    border-bottom: 70px solid #CA7A45
+    border-left: 100vw solid transparent
+    position: absolute
+    

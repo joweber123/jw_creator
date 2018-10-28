@@ -7,9 +7,10 @@
 		"uuidString": "26581070-CDD2-4BC1-BDFB-422923858B81"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "26680",
 "files": {
 	"\/_config.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_config.yml",
@@ -23,7 +24,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/normalize-min-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/assets\/css\/normalize.css": {
 		"aP": 1,
@@ -66,7 +67,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/skeleton-min-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/assets\/css\/skeleton.css": {
 		"aP": 1,
@@ -86,7 +87,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/style-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/assets\/css\/style.sass": {
 		"aP": 1,
@@ -97,7 +98,7 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/assets\/css\/style.css",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -136,7 +137,8 @@
 		},
 	"\/assets\/images\/blog-desktop-version.jpg": {
 		"ft": 16384,
-		"iS": 4096,
+		"iS": 42966,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-desktop-version.jpg",
 		"oF": 0,
@@ -146,18 +148,19 @@
 		},
 	"\/assets\/images\/blog-desktop-version.png": {
 		"ft": 32768,
-		"iS": 3565216,
+		"iS": 2443154,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-desktop-version.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/blog-header.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 60008,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-header.jpg",
 		"oF": 0,
@@ -167,7 +170,8 @@
 		},
 	"\/assets\/images\/blog-iphone-horizontal.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 24517,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-iphone-horizontal.jpg",
 		"oF": 0,
@@ -188,7 +192,8 @@
 		},
 	"\/assets\/images\/blog-iphone-vertical.jpg": {
 		"ft": 16384,
-		"iS": 4096,
+		"iS": 34374,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-iphone-vertical.jpg",
 		"oF": 0,
@@ -198,18 +203,19 @@
 		},
 	"\/assets\/images\/blog-iphone-vertical.png": {
 		"ft": 32768,
-		"iS": 3290350,
+		"iS": 1741848,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-iphone-vertical.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/blog-mockup-desktop-about.jpg": {
 		"ft": 16384,
-		"iS": 4096,
+		"iS": 136546,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-mockup-desktop-about.jpg",
 		"oF": 0,
@@ -242,6 +248,7 @@
 	"\/assets\/images\/blog-mockup-desktop-index.jpg": {
 		"ft": 16384,
 		"iS": 0,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-mockup-desktop-index.jpg",
 		"oF": 0,
@@ -262,7 +269,8 @@
 		},
 	"\/assets\/images\/blog-mockup-desktop-post.jpg": {
 		"ft": 16384,
-		"iS": 4096,
+		"iS": 148270,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-mockup-desktop-post.jpg",
 		"oF": 0,
@@ -283,12 +291,12 @@
 		},
 	"\/assets\/images\/blog-thumb.png": {
 		"ft": 32768,
-		"iS": 956749,
+		"iS": 314990,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-thumb.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -305,18 +313,19 @@
 		},
 	"\/assets\/images\/blog-wireframe.png": {
 		"ft": 32768,
-		"iS": 199580,
+		"iS": 73102,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blog-wireframe.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/blogger-header.jpg": {
 		"ft": 16384,
 		"iS": 47702,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/blogger-header.jpg",
 		"oF": 0,
@@ -409,6 +418,7 @@
 	"\/assets\/images\/iphone-horizontal.jpg": {
 		"ft": 16384,
 		"iS": 18546,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/iphone-horizontal.jpg",
 		"oF": 0,
@@ -429,7 +439,8 @@
 		},
 	"\/assets\/images\/iphone-vertical.jpg": {
 		"ft": 16384,
-		"iS": 4096,
+		"iS": 35937,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/iphone-vertical.jpg",
 		"oF": 0,
@@ -451,6 +462,7 @@
 	"\/assets\/images\/isobel-desktop-version.jpg": {
 		"ft": 16384,
 		"iS": 42772,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/isobel-desktop-version.jpg",
 		"oF": 0,
@@ -460,7 +472,8 @@
 		},
 	"\/assets\/images\/isobel-iphone-horizontal.jpg": {
 		"ft": 16384,
-		"iS": 4096,
+		"iS": 74772,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/isobel-iphone-horizontal.jpg",
 		"oF": 0,
@@ -482,6 +495,7 @@
 	"\/assets\/images\/isobel-iphone-vertical.jpg": {
 		"ft": 16384,
 		"iS": 46931,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/isobel-iphone-vertical.jpg",
 		"oF": 0,
@@ -524,12 +538,12 @@
 		},
 	"\/assets\/images\/isobel-thumb.png": {
 		"ft": 32768,
-		"iS": 144322,
+		"iS": 75704,
 		"oA": 0,
 		"oAP": "\/assets\/images\/isobel-thumb.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -568,12 +582,12 @@
 		},
 	"\/assets\/images\/j.png": {
 		"ft": 32768,
-		"iS": 42227,
+		"iS": 16927,
 		"oA": 0,
 		"oAP": "\/assets\/images\/j.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -600,6 +614,7 @@
 	"\/assets\/images\/james.jpg": {
 		"ft": 16384,
 		"iS": 8071,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/james.jpg",
 		"oF": 0,
@@ -651,7 +666,8 @@
 		},
 	"\/assets\/images\/mac-mock.jpg": {
 		"ft": 16384,
-		"iS": 4096,
+		"iS": 36817,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/mac-mock.jpg",
 		"oF": 0,
@@ -661,18 +677,30 @@
 		},
 	"\/assets\/images\/mac-mock.png": {
 		"ft": 32768,
-		"iS": 5353508,
+		"iS": 2095511,
 		"oA": 0,
 		"oAP": "\/assets\/images\/mac-mock.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/metropolis.png": {
+		"ft": 32768,
+		"iS": 68230,
+		"oA": 0,
+		"oAP": "\/assets\/images\/metropolis.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/mock-up-desktop-story.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 416331,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/mock-up-desktop-story.jpg",
 		"oF": 0,
@@ -694,11 +722,12 @@
 	"\/assets\/images\/mock-up-desktop.jpg": {
 		"ft": 16384,
 		"iS": 279980,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/mock-up-desktop.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/images\/mock-up-desktop.png": {
@@ -706,6 +735,17 @@
 		"iS": 3913066,
 		"oA": 0,
 		"oAP": "\/assets\/images\/mock-up-desktop.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/oikaze.png": {
+		"ft": 32768,
+		"iS": 367502,
+		"oA": 0,
+		"oAP": "\/assets\/images\/oikaze.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -780,7 +820,8 @@
 		},
 	"\/assets\/images\/portfolio-background.jpg": {
 		"ft": 16384,
-		"iS": 20480,
+		"iS": 85121,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/portfolio-background.jpg",
 		"oF": 0,
@@ -790,12 +831,12 @@
 		},
 	"\/assets\/images\/portfolio-background.png": {
 		"ft": 32768,
-		"iS": 49152,
+		"iS": 178000,
 		"oA": 0,
 		"oAP": "\/assets\/images\/portfolio-background.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -811,7 +852,7 @@
 		},
 	"\/assets\/images\/portfolio-background.svg-g5496-1023.png": {
 		"ft": 32768,
-		"iS": 81920,
+		"iS": 490372,
 		"oA": 0,
 		"oAP": "\/assets\/images\/portfolio-background.svg-g5496-1023.png",
 		"oF": 0,
@@ -833,7 +874,7 @@
 		},
 	"\/assets\/images\/portfolio-background.svg-g5496-671.png": {
 		"ft": 32768,
-		"iS": 172032,
+		"iS": 484599,
 		"oA": 0,
 		"oAP": "\/assets\/images\/portfolio-background.svg-g5496-671.png",
 		"oF": 0,
@@ -844,7 +885,8 @@
 		},
 	"\/assets\/images\/portfolio-background2.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 37430,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/portfolio-background2.jpg",
 		"oF": 0,
@@ -854,23 +896,23 @@
 		},
 	"\/assets\/images\/portfolio-background2.png": {
 		"ft": 32768,
-		"iS": 204069,
+		"iS": 186490,
 		"oA": 0,
 		"oAP": "\/assets\/images\/portfolio-background2.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/portfolio-thumb-1.png": {
 		"ft": 32768,
-		"iS": 0,
+		"iS": 185882,
 		"oA": 0,
 		"oAP": "\/assets\/images\/portfolio-thumb-1.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -899,6 +941,7 @@
 	"\/assets\/images\/react-desktop-version.jpg": {
 		"ft": 16384,
 		"iS": 28035,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/react-desktop-version.jpg",
 		"oF": 0,
@@ -920,6 +963,7 @@
 	"\/assets\/images\/react-header.jpg": {
 		"ft": 16384,
 		"iS": 55122,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/react-header.jpg",
 		"oF": 0,
@@ -930,6 +974,7 @@
 	"\/assets\/images\/react-iphone-horizontal.jpg": {
 		"ft": 16384,
 		"iS": 22799,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/react-iphone-horizontal.jpg",
 		"oF": 0,
@@ -951,6 +996,7 @@
 	"\/assets\/images\/react-iphone-vertical.jpg": {
 		"ft": 16384,
 		"iS": 20365,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/react-iphone-vertical.jpg",
 		"oF": 0,
@@ -982,34 +1028,34 @@
 		},
 	"\/assets\/images\/react-mockup-noblur.png": {
 		"ft": 32768,
-		"iS": 417182,
+		"iS": 101971,
 		"oA": 0,
 		"oAP": "\/assets\/images\/react-mockup-noblur.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/react-mockup-phone.png": {
 		"ft": 32768,
-		"iS": 265508,
+		"iS": 62509,
 		"oA": 0,
 		"oAP": "\/assets\/images\/react-mockup-phone.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/react-thumb.png": {
 		"ft": 32768,
-		"iS": 76899,
+		"iS": 31127,
 		"oA": 0,
 		"oAP": "\/assets\/images\/react-thumb.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1081,12 +1127,12 @@
 		},
 	"\/assets\/images\/react-wireframe2.png": {
 		"ft": 32768,
-		"iS": 35643,
+		"iS": 16797,
 		"oA": 0,
 		"oAP": "\/assets\/images\/react-wireframe2.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1190,34 +1236,34 @@
 		},
 	"\/assets\/images\/take-me-there-header.png": {
 		"ft": 32768,
-		"iS": 266341,
+		"iS": 217653,
 		"oA": 0,
 		"oAP": "\/assets\/images\/take-me-there-header.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/take-me-there-test-1.png": {
 		"ft": 32768,
-		"iS": 81071,
+		"iS": 23213,
 		"oA": 0,
 		"oAP": "\/assets\/images\/take-me-there-test-1.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/take-me-there-test-2.png": {
 		"ft": 32768,
-		"iS": 107165,
+		"iS": 27811,
 		"oA": 0,
 		"oAP": "\/assets\/images\/take-me-there-test-2.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1246,6 +1292,7 @@
 	"\/assets\/images\/Take-me-there-test-5.jpg": {
 		"ft": 16384,
 		"iS": 312579,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/Take-me-there-test-5.jpg",
 		"oF": 0,
@@ -1255,18 +1302,19 @@
 		},
 	"\/assets\/images\/Take-me-there-test-5.png": {
 		"ft": 32768,
-		"iS": 3258623,
+		"iS": 466923,
 		"oA": 0,
 		"oAP": "\/assets\/images\/Take-me-there-test-5.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/images\/take-me-there-thumb.jpg": {
 		"ft": 16384,
 		"iS": 113615,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/take-me-there-thumb.jpg",
 		"oF": 0,
@@ -1276,12 +1324,12 @@
 		},
 	"\/assets\/images\/take-me-there-thumb.png": {
 		"ft": 32768,
-		"iS": 612540,
+		"iS": 140195,
 		"oA": 0,
 		"oAP": "\/assets\/images\/take-me-there-thumb.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1290,6 +1338,17 @@
 		"iS": 4763,
 		"oA": 0,
 		"oAP": "\/assets\/images\/This is edited text..png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/images\/villa-paradiso.png": {
+		"ft": 32768,
+		"iS": 650075,
+		"oA": 0,
+		"oAP": "\/assets\/images\/villa-paradiso.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1319,6 +1378,7 @@
 	"\/assets\/images\/weather-app-background.jpg": {
 		"ft": 16384,
 		"iS": 21525,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/weather-app-background.jpg",
 		"oF": 0,
@@ -1329,6 +1389,7 @@
 	"\/assets\/images\/wedding-header.jpg": {
 		"ft": 16384,
 		"iS": 21156,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/wedding-header.jpg",
 		"oF": 0,
@@ -1349,7 +1410,8 @@
 		},
 	"\/assets\/images\/wire-frame-wedding.jpg": {
 		"ft": 16384,
-		"iS": 0,
+		"iS": 54846,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/wire-frame-wedding.jpg",
 		"oF": 0,
@@ -1370,7 +1432,8 @@
 		},
 	"\/assets\/images\/wireframe-wedding.jpg": {
 		"ft": 16384,
-		"iS": 24576,
+		"iS": 78992,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/wireframe-wedding.jpg",
 		"oF": 0,
@@ -1392,6 +1455,7 @@
 	"\/assets\/images\/wiresketch.jpg": {
 		"ft": 16384,
 		"iS": 106459,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/images\/wiresketch.jpg",
 		"oF": 0,
@@ -1422,6 +1486,7 @@
 		},
 	"\/assets\/js\/functions-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/functions-min-min.js",
@@ -1431,6 +1496,7 @@
 		},
 	"\/assets\/js\/functions.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/functions-min.js",
@@ -1440,6 +1506,7 @@
 		},
 	"\/assets\/js\/jquery-2.1.4.min-min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/jquery-2.1.4.min-min-min.js",
@@ -1449,6 +1516,7 @@
 		},
 	"\/assets\/js\/jquery-2.1.4.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/jquery-2.1.4.min-min.js",
@@ -1457,64 +1525,73 @@
 		"tS": 0
 		},
 	"\/build\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/build\/.gitignore",
 		"oF": 0
 		},
 	"\/CNAME": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/CNAME",
 		"oF": 0
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.html",
-		"oF": 1
+		"oF": 0
 		},
 	"\/portfolio1.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio1.html",
 		"oF": 0
 		},
 	"\/portfolio2.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio2.html",
 		"oF": 0
 		},
 	"\/portfolio3.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio3.html",
 		"oF": 0
 		},
 	"\/portfolio4.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio4.html",
 		"oF": 0
 		},
 	"\/portfolio5.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio5.html",
 		"oF": 0
 		},
 	"\/portfolio6.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/portfolio6.html",
 		"oF": 0
 		},
 	"\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1529,6 +1606,7 @@
 		"uCM": 0
 		},
 	"\/sitemap.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/sitemap.txt",
@@ -1544,7 +1622,8 @@
 	"displayValue": "jw_creator",
 	"displayValueWasSetByUser": 0,
 	"iconImageName": "brackets_purple",
-	"lastBuiltDate": 514345505
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 552238475
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1552,6 +1631,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1948,6 +2028,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -1955,6 +2039,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -2052,6 +2140,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -2068,9 +2160,17 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -2095,6 +2195,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -2128,9 +2232,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -2160,6 +2264,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -2169,14 +2277,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2199,6 +2299,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -2744,6 +2848,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -2812,6 +2920,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -2851,6 +2963,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -3264,7 +3380,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -3297,6 +3414,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -3308,6 +3426,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
@@ -3338,7 +3457,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -3370,13 +3490,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -3385,7 +3505,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -3405,7 +3526,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -3433,7 +3555,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -3480,9 +3603,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
